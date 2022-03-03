@@ -1,0 +1,98 @@
+/* 비주얼 */
+.videoBox h2::before{content: ''; width: 281px; height: 293px; background: url(../sub_images/heading_img1-1.png) center center no-repeat;  background-size: 100% auto; position: absolute; top: -119px; left:2%; z-index: -1;}
+
+/* 콘텐츠 */
+.story{}
+.story h3{}
+.story_inner{}
+.txt1{width: 96%; background: rgba(0,0,0,.9); border-radius: 40% 10% / 20% 60%; text-align: center; padding: 100px 0; margin: 0 auto;}
+.txt1 img{width:600px; height: 100%; margin: 50px 0 20px;}
+.txt1 p{color: #f9f9f9; width: 70%; margin: 0 auto; padding: 10px 0; text-align: justify; line-height: 2rem;}
+
+.txt2{overflow: hidden; padding: 150px 0 30px; margin: 150px 0; background: url(../sub_images/BoosRoom13.jpg) center center no-repeat; background-size: cover;}
+.img_wrap{animation: slide 3s infinite alternate ease-in; position: relative; right: 0; top: 39px; z-index: 0;}
+@keyframes slide {
+    0% {transform:translateX(50%); }
+    100% {transform:translateX(90%);}
+ }
+.img_wrap img{}
+
+.txt_wrap{width:50%; float:right; background:rgba(255, 255, 255, .5); border-radius: 10% 40% / 50% 20%; margin: 50px 30px 0 0; padding: 50px 70px; z-index: 1;}
+.txt_wrap strong{display:block; color:#6d59ae; font-size: 1.45rem; text-align: center; letter-spacing: 1.0258rem; margin-bottom: 50px;}
+.txt_wrap p{text-align: justify;}
+
+.inner{margin: 0 auto; background-color: rgba(255, 255, 255, .9);} 
+.inner ul{width: 96%; margin: 0 auto; border-radius: 10% 40% / 50% 20%; display: grid; grid-gap: 1.5rem; grid-template-columns: .5fr 1fr .5fr; grid-template-rows: 1fr .8fr; align-items: center; padding: 100px 0;}
+.inner ul li{width: 100%; float: left; }
+.inner ul .inner_left,.inner ul .inner_right{display: grid; grid-template-rows: repeat(3, 1fr); grid-gap: 3rem;}
+.inner ul span{display:block; width:100%; height: 270px; border-radius: 10% 40% / 50% 20%; margin: 0 auto;}
+.inner ul .inner_left span:nth-child(1){background: url(../sub_images/gal14.jpg) center center no-repeat; background-size: cover; }
+.inner ul .inner_left span:nth-child(2){background: url(../sub_images/Mike14.jpg) center center no-repeat; background-size: cover;}
+.inner ul .inner_left span:nth-child(3){background: url(../sub_images/gal2.jpg) center center no-repeat; background-size: cover;}
+
+.inner ul li>div{font-size: 1.1rem; text-align: justify;}
+.inner ul .inner_txt{margin: 20px 0;}
+
+.inner ul .inner_right span{}
+.inner ul .inner_right span:nth-child(1){background: url(../sub_images/gal16.jpg) center center no-repeat; background-size: cover;}
+.inner ul .inner_right span:nth-child(2){background: url(../sub_images/Randall12.jpg) center center no-repeat; background-size: cover;}
+.inner ul .inner_right span:nth-child(3){background: url(../sub_images/gal17.jpg) center center no-repeat; background-size: cover;}
+.inner ul li:nth-child(4){display:block; width:100%; height: 610px; margin-top: 50px; border-radius: 10% 40% / 50% 20%; background: url(../sub_images/Roz12.jpg) center center no-repeat; background-size: cover; grid-column: 1/4;}
+
+@media (hover: hover) {
+    .inner ul li:hover span{filter:grayscale(100); opacity: .3;}
+    .inner ul li:hover span:hover{filter:grayscale(0); opacity: 1;}
+    .inner ul li:nth-child(4):hover{transform:translate(0, -1.5rem); transition: ease-out .3s;}
+}
+
+
+
+
+/* 미디어 쿼리 */
+@media screen and (max-width:1440px) {
+    .inner ul{grid-template-rows: 1fr .6fr; }
+    .inner ul li:nth-child(4){height: 595px;}
+}
+@media screen and (max-width:1280px) {
+    .txt1{padding-bottom: 80px;}
+    .txt1 img{width: 70%;}
+
+    .inner ul{grid-template-columns: .6fr 1fr;}
+    .inner ul .inner_right{display: none;}
+   
+}
+@media screen and (max-width:1024px) {
+    .videoBox h2:before{content: '';
+        width: 200px;
+        height: 198px;
+        background: url("../sub_images/heading_img1-1.png") center center no-repeat;
+        background-size: 100% auto;
+        position: absolute;
+        top: -111px;
+        left: 8%;
+        z-index: -1;}
+
+    .txt1 img{width: 50%;}
+
+    .txt2{background: url("../sub_images/BoosRoom13.jpg") left center no-repeat; background-size: cover;}
+   
+    .inner ul{grid-template-rows: 1fr .4fr; grid-gap: 1.3rem;}
+    .inner ul li>div{font-size: 1rem; padding: 0 40px;}
+    .inner ul li:nth-child(4){height: 510px;}
+}
+
+@media screen and (max-width:768px) {
+
+    .txt1{}
+    .txt1 img{width:80%;}
+    .txt2{padding: 150px 10px 30px;}
+    .img_wrap{display: none;}
+    .txt_wrap{width: 80%; margin: 0 auto; }
+
+    .inner ul{ display: flex; flex-wrap: wrap; grid-template-rows: 1fr .3fr;}
+    .inner ul li:nth-child(4){height: 310px;}
+}
+
+@media screen and (max-width:640px){
+
+}

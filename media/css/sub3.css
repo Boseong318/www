@@ -1,0 +1,91 @@
+.clip{overflow: hidden; background: rgba(0,0,0,.9); display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 2.5rem; padding: 150px 5%;}
+
+.clip_part {
+    width:100%;
+    margin-bottom: 100px
+}
+.clip_part:nth-child(1){grid-column: 1/3;}
+.clip_part .contentArea {
+    position: relative;
+    width: 96%;
+    margin: 30px auto
+}
+
+.imgPart {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 30px
+}
+
+.clip_part .contentArea .imgPart .popup-youtube>img {
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+    border-radius: 30px 30px;
+}
+
+.clip_part .contentArea p {
+    color: #fff;
+    text-align: justify;
+    font-family: 'Jost', sans-serif;
+}
+
+.clip_part .playBnt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 110px;
+    height: 110px;
+    margin: -55px 0 0 -55px;
+    border-radius: 94px;
+    background: rgba(0,0,0,.6)
+}
+
+.clip_part .playBnt i{font-size: 50px; color: #006fb7; position: absolute; left: 34%; top:27%;transition: all .3s;}
+.clip_part .playBnt:hover i{color: rgba(0,111,183,.8);transform: rotate(360deg);}
+
+.clip_part .infor{}
+.clip_part .infor:nth-child(1) p{font-size: 2rem;}
+.clip_part .infor p{position:relative; font-size: 1.5rem;}
+.clip_part .infor p::after{content: '';  width: 96%; height: 1px; background: #006fb7; display: block; position: absolute; left: 0; bottom: -5px;}
+.clip_part .infor span{display: block; font-size: 1.3rem; margin-top: 13px;}
+
+
+/* 미디어쿼리 */
+@media screen and (max-width:1280px) {
+    
+    
+}
+@media screen and (max-width:1024px) {
+    .clip{grid-gap:1.5rem; padding: 100px 5%;}
+    .clip_part{margin-bottom: 30px;}
+    .clip_part .infor p{font-size: 1rem;}
+    .clip_part .infor span{font-size: 1rem;}
+
+    .clip_part .playBnt{width:80px; height: 80px;}
+    .clip_part .playBnt i{font-size: 40px; left:33%; top: 25%;}
+}
+@media screen and (max-width:786px) {
+    
+    .clip_part {
+    width:auto; float:none;}
+    .clip_part:nth-child(2){grid-column: 1/3;}
+    .clip_part:nth-child(3){grid-column: 1/3;}
+    
+}
+
+@media screen and (max-width:640px) {
+    .subTitle {
+        font-size: 1.5em
+    }
+}
+
+@media screen and (max-width:480px) {
+    .clip_part .playBnt {
+        width: 95px;
+        height: 95px;
+        margin: -48px 0 0 -48px
+    }
+    .clip_part .contentArea {
+        width: auto
+    }
+}

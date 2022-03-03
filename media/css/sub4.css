@@ -1,0 +1,60 @@
+
+.videoBox h2::before{content: ''; width: 281px; height: 198px; background: url(../sub_images/heading_img4.png) center center no-repeat;  background-size: 100% auto; position: absolute; top: -148px; left: 48%;}
+
+/* content */
+#content{ width:100%; margin:0 auto; position: relative;}
+.gallery{background:rgba(2,27,44,.9); padding: 5rem 4%;}
+.gallery h3{}
+.gallery p{color: rgba(144,144,144,.9); text-align: center; line-height: 2rem; margin-bottom: 3.5rem;}
+
+.grid--images{}
+/*-------------------------------------------------------------------*/
+.grid-image-item,.grid--images .grid-sizer { width: 20%;} 
+/* 윗 부분의 넓이만 잡아주기 */
+.grid-image-item {
+  float: left; margin-bottom: 15px
+}
+
+.grid-image-item img{
+    border-radius: 3%;
+   display: block;
+    width: 90%;margin: 10px auto;
+    transition: all ease-in-out .3s;
+}
+.grid-image-item img:hover{
+    transform: scale(1.1);
+}
+.grid-image-item h4{
+  display: block;
+    width: 96%;text-align: center;margin: 0 auto;
+}
+.grid-image-item strong{display: block; width: 90%; margin: 0 auto; margin-bottom: 10px; text-align: center; color: #a18cb7; font-family: 'Josefin Sans', sans-serif; font-size: 1.128rem;}
+.grid-image-item p{display: block; width: 96%; text-align: center; margin: 0 auto;}
+
+/*-------------------------------------------------------------------*/
+
+@media screen and (max-width:1024px) {
+    
+    .grid-image-item,
+    .grid--images .grid-sizer { width: 25%;}
+
+    
+/* 윗부분의 넓이만 바꿔주기 */
+}
+
+@media screen and (max-width:768px) {
+    .videoBox h2{font-size:3.5rem}
+    .videoBox h2::before{width: 200px;}
+    .down span{font-size: .75rem;}
+
+    .grid-image-item,
+    .grid--images .grid-sizer {width: 33.33%;}
+}
+
+@media screen and (max-width:640px){
+
+    .videoBox h2{font-size:3rem}
+
+    .grid-image-item,
+    .grid--images .grid-sizer {width: 50%;}
+}
