@@ -1,0 +1,154 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품소개-생활건강</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content2.css">
+
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼이미지">
+            <h3>제품소개</h3>
+        </div>
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub2_1.html">베스트제품</a></li>
+                <li><a href="./sub2_2.html">의약외품</a></li>
+                <li><a href="./sub2_3.html">일반의약품</a></li>
+                <li class="current"><a href="./sub2_4.html">생활건강</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">home &gt; 소개 &gt; <strong>생활건강</strong></div>
+                <h2>생활건강</h2>
+                <p>living health</p>
+            </div>
+            <div class="content_area">
+                <div class="tab_menu">
+                    <ul>
+                        <li><a class="link1" href="#">화장품</a></li>
+                        <li><a class="link2" href="#">혼합음료</a></li>
+                        <li><a class="link3" href="#">기타</a></li>
+                    </ul>
+                </div>
+                <div class="pro_list">
+                    <div class="pro_box">
+                        <h4 class="con1">화장품</h4>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content4/product1.jpg" alt="써큐란오메가-3">
+                                    </div>
+                                    <p><span>파티온</span> 
+                                        딥베리어밸런싱에멀전</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content4/product2.jpg" alt="써큐란알파">
+                                    </div>
+                                    <p><span>파티온</span> 
+                                        딥베리어소프트클렌징폼</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content4/product3.jpg" alt="써큐란코큐텐">
+                                    </div>
+                                    <p><span>파티온</span> 
+                                        딥베리어크리미토너</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pro_box">
+                        <h4 class="con2">혼합음료</h4>
+                        <ul> 
+                            <li> 
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content4/product4.jpg" alt="마이보라">
+                                    </div>
+                                    <p><span>모닝케어</span> 
+                                        더부룩한 숙취</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content4/product5.jpg" alt="마이보라30">
+                                    </div>
+                                    <p><span>모닝케어</span> 
+                                        깨질듯한 숙취</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content4/product6.jpg" alt="멜리안">
+                                    </div>
+                                    <p><span>모닝케어</span> 
+                                        푸석푸석한 숙취</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pro_box">
+                        <h4 class="con3">기타</h4>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content4/product7.jpg" alt="챔프목감기용">
+                                    </div>
+                                    <p><span>조르단</span> 
+                                        검프로텍터</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content4/product8.jpg" alt="챔프아세트아미노펜">
+                                    </div>
+                                    <p><span>조르단</span> 
+                                        브러시비트윈-치간칫솔</p>
+                                </a>        
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content4/product9.jpg" alt="챔프코감기용">
+                                    </div>
+                                    <p><span>조르단</span> 
+                                        인비트윈-치실</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script src="../common/js/prefixfree.min.js"></script>
+        <script src="./js/slide_move.js"></script>
+        <script src="./js/sub2_2.js"></script>
+</body>
+</html>

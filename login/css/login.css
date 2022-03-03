@@ -1,0 +1,53 @@
+body{font-family:"Noto Sans KR", "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px; color: #333;}
+.wrap{background: #f0f0f0;}
+.container{width: 600px; background: #fff; border-radius: 10px 10px; margin: 60px auto; overflow: hidden;}
+h1{width: 192px; height: 34px; margin: 0 auto; position: relative;}
+h1>a{display: block; width: 192px; height: 34px; background: url(../images/logo.png) center center no-repeat; text-indent: -999px; overflow: hidden; float: left;
+    position: absolute; top: 100px; left: 0;}
+
+#content{width: inherit; padding-top: 200px;}
+form{width: inherit; height: inherit; background-color: #fff; text-align: center; margin-bottom: 70px;}
+#id_pw_input{margin-bottom: 10px;}
+#id_pw_input ul li{width: 450px; border-bottom: 1px solid #999; list-style: none; margin: 10px auto;}
+#id_pw_input ul li label{text-indent: -999px; overflow: hidden; float: left;}
+#id_pw_input ul li .login_input{width: 400px; height: 50px; font-size: 1rem; border: none; outline: none; padding: 0 15px;}
+
+#login_button{overflow: hidden; margin: 60px 0 30px;}
+#login_button .login_button{width: 330px; font-size: 1.025rem; color: #f0f0f0; border: 1px solid #01a0ca; border-radius: 5px 5px; background: #01a0ca; padding: 15px 20px;  transition: all .2s ease-in-out;}
+#login_button .login_button:hover{color: #01a0ca; background: #fff; border: 1px solid #01a0ca; transition: all .2s ease-in-out;}
+
+.find_idpw{width: 330px; overflow: hidden; margin: 15px auto;}
+.find_idpw li{font-size: .95rem; float: left;}
+.find_idpw li:nth-child(2){float: right;}
+.find_idpw li .fas{margin-right: 5px;}
+.find_idpw li span{margin: 0 5px;}
+.find_idpw li span>a{color: #666;}
+.find_idpw li span>a:hover{color: #333;}
+
+#join_button{font-size: .85rem; overflow: hidden;}
+#join_button span{}
+#join_button .joinUs{color: #333; margin-left: 15px;}
+#join_button:hover .joinUs{color: #01a0ca;}
+
+/* id_find.php */
+.title{}
+.title p{}
+
+#id_input_button{margin: 20px auto;}
+#id_input_button .namebox, .telBox, .find{margin: 20px 0;}
+#id_input_button .namebox .find_input, #id_input_button .telBox .find_input{width: 75%; background: rgba(1, 160, 202, .1); border: none; border-radius: 5px; outline: none; padding: 15px 20px; margin: 5px auto;}
+
+#id_input_button .telBox{width: 80%; overflow: hidden; margin: 5px auto;}
+#id_input_button .telBox .find_input{width: 118px;}
+
+#id_input_button .find{width: 80%; color: #f0f0f0; background: #01a0ca; border: 1px solid #01a0ca; border-radius: 5px; padding: 15px 20px; transition: all .2s ease-in-out;}
+#id_input_button .find:hover{ color: #01a0ca; background: #fff; border: 1px solid #01a0ca; transition: all .2s ease-in-out;}
+
+.go{overflow: hidden; margin: 20px 0;}
+.go li{width: 50%; float: left;}
+.go li i{font-size: 1rem; color: #01a0ca; margin-right: 10px;}
+
+/* pw_find.php */
+#loadtext{display: block;}
+
+

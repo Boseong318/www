@@ -1,0 +1,42 @@
+/*각각 페이지의 내용 콘텐츠 영역-사회공헌 내용*/
+
+#content .content_box{}
+#content .content_box p{font-weight: 500; line-height: 1.8em; font-size: 1.2em; margin: 50px 0; }
+#content.mission_box{width: 1200px; float: left; margin-bottom: 60px;}
+#content h3{position: relative; margin-top: 100px;}
+#content .mission_box h3::after{content: ''; width: 74px; height: 3px; background: #333; display: block; position: absolute; left: 0; top: 61px;}
+#content .mission_box span{display: block; color: #01abce; font-size: 25px; margin: 10px 0;}
+
+#content .con_box{width: 1200px; overflow: hidden; margin: 0 auto; padding-top: 50px; position: relative; right:-1000px; top:0; opacity: 0; transition: all .8s}
+#content .con_box.boxMove{right: 0; opacity: 1 }
+#content ul{width: 600px; overflow: hidden; position: relative; float: left;}
+#content li{}
+#content li img{width: 90%;}
+#content .con_box span{font-size: 80px; color: #eee; position: absolute; font-weight: 900; top: 167px; right: 54px;}
+#content .con_box dl{width: 550px; position: relative; text-align: justify; margin-bottom: 40px;}
+#content .con_box dt{font-size: 20px; line-height: 1.8em; color: #333; font-weight: bold; margin: 20px 0 40px;}
+#content .con_box dd{list-style: inside; font-size: 16px; line-height: 1.7em; padding: 0 10px;}
+
+/* #content .con_box1 span{font-size: 80px; color: #eee; position: absolute; font-weight: 900; top: 167px; right: 54px;}
+#content .con_box1 dl{width: 550px; position: relative; text-align: justify; margin-bottom: 40px;}
+#content .con_box1 dt{font-size: 20px; line-height: 1.8em; color: #333; font-weight: bold; margin: 20px 0 40px;}
+#content .con_box1 dd{list-style: inside; font-size: 16px; line-height: 1.7em; padding: 0 10px;} */
+
+#content .contribute_box{width: 1200px; overflow: hidden; margin: 0 auto; margin-bottom: 150px; position: relative; left:-1000px; top:0; opacity: 0; transition: all 1s}
+#content .contribute_box.boxMove{left: 0; opacity: 1 }
+#content .contribute_box h3::after{content: ''; width: 145px; height: 3px; background: #333; display: block; position: absolute; left: 0; top: 61px;}
+#content .contribute_box p span{display: block; color: #01abce; font-size: 25px; margin: 10px 0;}
+
+#content .contribute_box h4{width: 176px; height: 176px; text-align: center; color: #fff; background: #1659a0; border-radius: 50%; padding-top: 67px; position: absolute; left: 41.4%; top: 60%; z-index: 2; box-sizing: border-box;}
+#content .contribute_box dl{width: 500px; height: 140px; float: left; text-align: justify; color: #fff; border-radius: 30px; padding: 70px 40px; margin: 0  20px 20px 0;}
+#content .contribute_box dl:nth-of-type(1){background: #1667a0;}
+#content .contribute_box dl:nth-of-type(2){background: #1677a0;}
+#content .contribute_box dl:nth-of-type(3){background: #6a93a4;}
+#content .contribute_box dl:nth-of-type(4){background: #9da1a2;}
+#content .contribute_box dt{font-size: 20px; font-weight: bold; display: block; color: #fff; margin-bottom: 20px;}
+#content .contribute_box dd{color: #fff; line-height: 1.8em;}
+
+
+
+
+

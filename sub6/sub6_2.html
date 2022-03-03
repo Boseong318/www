@@ -1,0 +1,150 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객지원-FAQ</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <link rel="stylesheet" href="./css/sub6_2content.css">
+
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="비주얼이미지">
+        <h3>고객지원</h3>
+    </div>
+    <div class="sub_menu">
+        <ul>
+            <li><a href="./sub6_1.html">상담절차</a></li>
+            <li class="current"><a href="./sub6_2.html">FAQ</a></li>
+            <li><a href="./sub6_3.html">온라인상담</a></li>
+        </ul>
+    </div>
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">home &gt; 고객지원 &gt; <strong>FAQ</strong></div>
+            <h2>FAQ</h2>
+            <p>frequently asked questions</p>
+        </div>
+        <p class="txt">고객과 소통하며 성장하는 동아제약입니다</p>
+        <div class="tabs">
+            <ul class="tab_menu">
+                <li><a class="tab tab1" href="#">박카스</a></li>
+                <li><a class="tab tab2" href="#">가그린</a></li>
+                <li><a class="tab tab3" href="#">템포</a></li>
+            </ul>
+            <a class="all" href="#"><span class="hidden">모두열기</span><i class="fas fa-sort-down"></i></a>
+            <div class="contlist">  
+                <div class="hgroup">  
+                 <h3 class="hidden">박카스FAQ</h3>
+                </div>  
+                 <ul>  
+                     <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 박카스D와 박카스F 어떤 차이가 있나요?<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">박카스 D는 주성분인 타우린이 2,000mg 함유되어 있으며 100mL 용량입니다. 박카스F는 타우린 1,000mg와 DL카르니틴이 함유되어 있으며 120mL 용량입니다. 박카스디카페에이는 카페인 성분이 없는 제품입니다. 박카스D는 약국에서, 박카스F는 편의점 등의 일반유통 경로에서 구입하실 수 있습니다.</p>  
+                    </li> 
+                    <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 당이 얼마나 들어있나요?<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">박카스D는 당 성분이 1병 중 12g(48 kcal), 박카스F에는 1병 중 14g(58kcal) 들어 있습니다.</p>  
+                    </li>
+                    <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 박카스 맛이 예전과 다르게 느껴집니다.<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">박카스를 마시기 전에 자극적인 음식을 드시면 싱겁게 느껴질 수 있습니다. 너무 차갑거나 미지근한 상태의 박카스 역시 평소보다 싱겁게 느껴질 수 있습니다.</p>  
+                    </li>
+                    <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 10병 박스에 1병이 부족합니다.<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">먼저, 박카스 박스의 밑바닥에 동그란 병 자국이 10개가 모두 나타나 있는지 확인해주십시오. 박스 밑바닥에 눌린 동그란 병자국이 10개가 모두 나타나 있다면 공장 출하 시에는 정상적으로 10병이 담겨져 있었으나 유통 중 또는 보관 중에 손실이 발생한 것입니다. 박스의 절취선을 따라 정상적으로 개봉하지 않고 박스 가운데의 홈을 밀어서 한 병씩 꺼내거나 다른 병을 넣을 수 있으므로 주의가 필요합니다.</p>  
+                    </li>
+               </ul>
+            </div>
+            <div class="contlist">  
+                <div class="hgroup">  
+                 <h3 class="hidden">가그린FAQ</h3>
+                </div>  
+                 <ul>  
+                     <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 가그린 사용 후 물로 헹궈내야 합니까?<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">물로 헹궈내지 않으셔도 됩니다. 사용 후 잔여감이 불편하신 경우에는 물로 가볍게 헹궈주십시오.</p>  
+                    </li> 
+                    <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 사용 횟수는 어떻게 됩니까?<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">일반적인 사용법은 1일 1~2회*이나, 제품마다 사용 횟수의 차이가 있으니 정확한 용법·용량은 제품 설명서를 확인하여 주시기 바랍니다 (*출처: 치약·구중청량제 바르게 알고 사용하세요!, 식품의약품안전처 보도자료, 2019.06.07).</p>  
+                    </li>
+                    <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 제로, 오리지널, 스트롱 차이점을 알려주세요<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">세 가지 제품은 에탄올 함유량에 따라 분류할 수 있으며, 구강 내에서의 자극이나 청량감에서 차이를 나타냅니다. 가그린 제로는 에탄올이 첨가되어 있지 않으며, 가그린오리지널은 에탄올 8%, 가그린스트롱은 에탄올 13% 함유된 제품으로 구강 내 자극이나 청량감에 차이가 있습니다. 효과에는 차이가 없으므로 기호에 맞게 강도를 선택하여 사용하실 수 있습니다.</p>  
+                    </li>
+                    <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 어린이용 가그린에는 불소가 얼마나 들어있나요?<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">불소로서 226ppm이 함유돼 있습니다.</p>  
+                    </li>
+               </ul>
+            </div>
+            <div class="contlist">  
+                <div class="hgroup">  
+                 <h3 class="hidden">템포FAQ</h3>
+                </div>  
+                 <ul>  
+                     <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 템포를 사용하면 아프지 않나요?<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">템포 흡수체를 삽입한 후 이물감이 느껴지면 제 위치에 놓여지지 않은 것입니다. 이때는 삽입된 템포를 제거하시고 새로운 템포로 다시 시작해주십시오. 템포 흡수체가 정확한 위치에 삽입되면 이물감이 느껴지지 않습니다. 질내 2센티 안쪽으로 깊숙히 넣어주십시오.</p>  
+                    </li> 
+                    <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 하루의 교환 횟수는 어떻게 됩니까?<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">템포의 교체시기와 횟수는 개인마다 차이가 있습니다. 보통 3~4시간마다 교체하며 생리양이 많은 날에는 1~2시간 이내에 교체합니다. 또한 교체시간은 8시간을 넘기지 않도록 주의해주십시오. 사용이 끝난 흡수체는 휴지통에 버려주십시오.</p>  
+                    </li>
+                    <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 수영장에서 사용해도 됩니까?<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">생리 양이 적은 경우 필요에 따라 수영장에서도 사용할 수 있습니다. 그러나, 사용이 미숙한 경우에는 어려움이 따를 수 있으니 탐폰류에 익숙해진 후 사용하시기를 권장합니다. 그리고, 교체 시기를 평소보다 자주하여 위생관리에 더욱 철저히 신경써 주십시오.</p>  
+                    </li>
+                    <li class="article hide">  
+                        <p class="question">  
+                            <a class="trigger" href="#"><strong>Q</strong> 독성쇼크증후군(TSS)은 무엇입니까?<span class="btn"><i class="fas fa-chevron-down"></i></span></a>  
+                        </p>  
+                        <p class="answer">독성쇼크증후군(TSS)은 인체 내에서 독소를 만들어 내는 포도상구균에 의해 발생되는 급성질환입니다. 초기 증상은 갑작스런 고열, 구토, 설사, 햇빛에 탄 것과 같은 발진, 점막 출혈, 어지러움 등이 나타나며 이경우, 즉시 치료받지 않으면 혈압 저하 등 쇼크 상태에 이를 수도 있습니다. 독성쇼크증후군이라고 생각되는 증상이 나타나는경우에는 즉시 탐폰을 제거한 후 의사와 상의해주십시오.</p>  
+                    </li>
+               </ul>
+            </div>
+        </div>
+
+
+    </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="./js/tab.js"></script>
+    <script src="./js/faq.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/*각각 페이지의 내용 콘텐츠 영역-기업소개 내용*/
+@keyframes circleAnime{ 100% { transform: rotate(360deg); } }
+
+#content{width: 100%; margin: 0 auto;}
+#content .content_area{width: 100%; margin: 0 auto;}
+
+/* outcome area*/
+#content .content_area .outcome_box{width: 100%; overflow: hidden; margin: 0 auto; margin-bottom: 150px;}
+#content .outcome_heading{width: 1200px; position: relative; overflow: hidden; padding-bottom: 80px; margin: 0 auto;}
+#content .outcome_heading h3::after{content: ''; width: 148px; height: 3px; background: #333; display: block; position: absolute; left: 0; top: 61px; z-index: 0;}
+#content .outcome_heading p{margin-top: 50px; font-weight: 500; line-height: 1.8em; font-size: 1.2em;}
+#content .outcome_heading p span{color: #01abce;}
+/* outcome list*/
+#content .outcome_list{width: 100%; margin: 0 auto; margin-bottom: 80px; padding: 100px 0; overflow: hidden; background: #132146;}
+#content .outcome_list ul{width: 1200px; margin: 0 auto; overflow: hidden;}
+#content .outcome_list ul li{width: 33.33%; overflow: hidden; float: left;}
+#content .outcome_list .circle::before{content: ''; width: 280px; height: 280px; display: block; position: absolute; left: 9px; top: 9px; border: 1px solid rgba(255,255,255,0.4); border-radius: 50%;}
+#content .outcome_list .circle{width: 300px; height: 300px; float: left; text-align: center; color: #fff; border: 1px solid rgba(255,255,255,0.6); border-radius: 50%; margin: 20px 48px; position: relative;} 
+#content .outcome_list .circle::after{content: ''; width: 320px; height: 320px; display: block; position: absolute; left: -11px; top: -12px; border: 1px dashed rgba(255,255,255,0.2); border-radius: 50%; animation: circleAnime 30s linear infinite; transform-origin: 50% 50%;}
+#content .outcome_list .circle p{text-align: center; line-height: 3em;}
+#content .outcome_list .circle span{display: block;}
+#content .outcome_list .circle span:first-of-type{margin-top: 70px; font-weight: bold; color: #86a4f1;}
+#content .outcome_list .circle span:nth-of-type(2){display: inline-block; font-weight: bold; font-size: 1.4em;}
+#content .outcome_list .circle span:last-of-type{margin-bottom: 20px;}
+
+/*product list*/
+#content .product_list{width: 1200px; margin: 0 auto; overflow: hidden;}
+#content .product_list ul{font-size: 20px; overflow: hidden;}
+#content .product_list ul li{width: 600px; float: left; margin: 0 auto; margin-bottom: 80px;}
+#content .product_list ul li a:hover img{border: 1px solid #01abce; border-radius: 0 30px; transform: scale(1); transition: all ease-in-out .5s; overflow: hidden;}
+#content .product_list ul li .heading{width: 232px; font-size: 30px; font-weight: 400; position: relative; float: left; margin: 0 20px 40px 0;} 
+#content .product_list ul li .heading::after{content: ''; width: 230px; height: 3px; background: #333; display: block; position: absolute; left: 0; top: 0; z-index: 0;}
+#content .detail{width: 300px; float: left; margin: 0 auto; overflow: hidden;}
+#content .detail img{width: 200px; float: left; border: 1px solid #ccc; border-radius: 0 30px; transform: scale(.9); transition: all ease-in-out .5s;} 
+#content .detail span{width: 200px; font-size: 20px; color: #666; font-weight: 500; text-align: center; float: left;}
+
+
+
+

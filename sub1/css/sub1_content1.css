@@ -1,0 +1,54 @@
+/* 각각 페이지의 내용 콘텐츠 영역-기업소개 내용*/
+
+
+#content .content_area{}
+
+#content .content_area .tap_menu{width: 840px; margin: 0 auto;}
+#content .content_area .tap_menu ul{overflow: hidden; width: 840px; margin: 0 auto;}
+#content .content_area .tap_menu li{float: left; width: 420px;}
+#content .content_area .tap_menu .current a{border-bottom: 3px solid #01abce;}
+#content .content_area .tap_menu li a{display: block; font-size: 20px; padding: 15px 0; border-bottom: 3px solid #ccc; text-align: center; transition: all .5s;}
+#content .content_area .tap_menu li a:hover{display: block; font-size: 20px; padding: 15px 0; border-bottom: 3px solid #01abce;  text-align: center; transition: all .5s;}
+
+#content .content_area .intro_box{width: 1000px; margin: 0 auto; overflow: hidden; margin-bottom: 145px;}
+#content .content_area .intro_box .intro_title{width: 840px; margin: 0 auto;}
+#content .content_area .intro_box .intro_title p{text-align: center; font-size: 16pt; margin-bottom: 160px;}
+#content .content_area .intro_box .intro_title span{color: #01abce;}
+
+#content .content_area .intro_box img{float: left;}
+
+#content .content_area .intro_box .txt_box{float: right; width: 460px;}
+#content .content_area .intro_box .txt_box p{font-size: 19px; margin-bottom: 40px;}
+#content .content_area .intro_box .txt_box p:nth-of-type(1){font-size: 25px; margin-bottom: 65px; font-weight: bold;}
+
+#content .content_area .ci_logo{width: 1000px; margin: 0 auto; overflow: hidden; margin-bottom: 245px;}
+#content .content_area .ci_logo .logo_title{width: 840px; margin: 0 auto; margin-bottom: 160px;}
+#content .content_area .ci_logo .logo_title h4{font-size: 40px; text-align: center; margin: 125px  0 52px;}
+#content .content_area .ci_logo .logo_title p{text-align: center; font-size: 20px;}
+#content .content_area .ci_logo .logo_title span{color: #01abce;}
+
+#content .content_area .ci_logo .logo_box1 .logo_tap1{width: 525px; margin: 0 auto; margin-bottom: 110px;}
+#content .content_area .ci_logo .logo_box1 .logo_tap1 ul{overflow: hidden; width: 525px; margin: 0 auto;}
+#content .content_area .ci_logo .logo_box1 .logo_tap1 li{float: left; width: 260px;}
+#content .content_area .ci_logo .logo_box1 .logo_tap1 li a{display: block; font-size: 20px; padding: 15px 0; border: 3px solid #01abce; background: #fff; text-align: center; transition: all .5s;}
+#content .content_area .ci_logo .logo_box1 .logo_tap1 li a:hover{background: #01abce; color: #fff;}
+#content .content_area .ci_logo .logo_box1 .logo_tap1 .current a{background: #01abce; color: #fff; border: 3px solid #01abce;}
+
+
+#content .content_area .ci_logo .logo_inner{width: 840px; margin: 0 auto; margin-bottom: 160px; overflow: hidden; margin-bottom: 145px;}
+#content .content_area .ci_logo .logo_inner .title{margin: 0 30px 125px 0; text-align: right;}
+#content .content_area .ci_logo .logo_inner .title p{font-size: 18px;}
+#content .content_area .ci_logo .logo_inner .title p:nth-of-type(1){font-size: 25px;}
+#content .content_area .ci_logo .logo_inner .title p span{color: #01abce;}
+
+#content .content_area .ci_logo .logo_inner img{float: left; margin: 133px 130px 180px 90px;}
+
+#content .content_area .ci_logo .logo_inner .txt{}
+#content .content_area .ci_logo .logo_inner .txt span{display: inline;}
+#content .content_area .ci_logo .logo_inner .txt strong{font-size: 20px; font-weight: 400; color: #785e2b; display: block; margin-bottom: 10px;}
+#content .content_area .ci_logo .logo_inner .txt p{text-align: justify; font-size: 18px; margin-bottom: 40px;}
+
+#content .content_area .ci_logo .img_box{overflow: hidden; width: 800px; margin: 0 auto; padding: 115px 55px 110px 70px; background: #fafafa; border: 2px solid #ccc;}
+#content .content_area .ci_logo .img_box .box{float: left; margin-right: 55px;}
+#content .content_area .ci_logo .img_box img{display: block;}
+#content .content_area .ci_logo .img_box span{display: block; margin: 0 auto; margin-top: 10px; text-align: center; font-size: 18px;}

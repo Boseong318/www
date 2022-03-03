@@ -1,0 +1,216 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품소개_베스트제품</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content1.css">
+
+    
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼이미지">
+            <h3>제품소개</h3>
+        </div>
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub2_1.html">베스트 제품</a></li>
+                <li><a href="./sub2_2.html">의약외품</a></li>
+                <li><a href="./sub2_3.html">일반의약품</a></li>
+                <li><a href="./sub2_4.html">생활건강</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">home &gt; 소개 &gt; <strong>베스트제품</strong></div>
+                <h2>베스트 제품</h2>
+                <p>best product</p>
+            </div>
+            <div class="content_area">
+                <div class="tap_menu">
+                    <ul>
+                        <li class="current"><a class="link1" href="#">박카스</a></li>
+                        <li><a class="link2" href="#">가그린</a></li>
+                    </ul>
+                </div>
+                <div class="slogan_box">
+                    <div class="slogan_txt">
+                        <h3 class="hidden">박카스</h3>
+                        <p>박카스</p>
+                        <p>오늘 하루도 힘을 냈던 <span>당신,</span></p>
+                        <p>스스로에게 <span>작은 칭찬</span>과 <span>'박카스 한병'</span>선물하세요</p>
+                        <img src="./images/content1/main_logo.png" alt="박카스로고">
+                    </div>
+                </div>
+                <div class="movie_box">
+                    <h4>29초 영화제</h4>
+                    <div class="movie_tap">
+                        <ul>
+                            <li class="current"><a class="tab tab1" href="#">2021</a></li>
+                            <li><a class="tab tab2" href="#">2019</a></li>
+                            <li><a class="tab tab3" href="#">2018</a></li>
+                            <li><a class="tab tab4" href="#">2017</a></li>
+                        </ul>
+                    </div>    
+                    <div class="movie">
+                        <div class="movie_txt">
+                            <i class="fas fa-quote-left"></i>
+                            <p><span>나의 피로회복 정류장은</span>
+                                <span><strong>[&nbsp;&nbsp;]</strong>&nbsp;이다</span></p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="yt_box">
+                            <div class="youtube">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/YJreeOXkPP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p><span>2021년도 대상</span>
+                                <span>나의 피로회복 정류장은 [딸의 마음]이다</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <div class="movie_txt">
+                            <i class="fas fa-quote-left"></i>
+                            <p><span>남들이 모르는 나만의 피로는</span>
+                                <span><strong>[&nbsp;&nbsp;]</strong>&nbsp;이다</span></p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="yt_box">
+                            <div class="youtube">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/igIQ-m1UKoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p><span>2019년도 대상</span>
+                                <span>남들이 모르는 나만의 피로는 [가나다순]이다</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <div class="movie_txt">
+                            <i class="fas fa-quote-left"></i>
+                            <p><span>내 인생 가장 피로한 순간은</span>
+                                <span><strong>[&nbsp;&nbsp;]</strong>&nbsp;이다</span></p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="yt_box">
+                            <div class="youtube">
+                                <img src="./images/content1/movie3.jpg" alt="2021년대상">
+                                <p><span>2018년도 대상</span>
+                                <span>내 인생 가장 피로한 순간은 [최고의 사위로 변신할 때]이다</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <div class="movie_txt">
+                            <i class="fas fa-quote-left"></i>
+                            <p><span><strong>[&nbsp;&nbsp;]</strong>&nbsp;은</span>
+                                <span>나의 박카스이다</span></p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="yt_box">
+                            <div class="youtube">
+                                <img src="./images/content1/movie4.jpg" alt="2021년대상">
+                                <p><span>2017년도 대상</span>
+                                <span>[엄마]는 나의 박카스이다</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo_box">
+                    <h4>BI 로고 소개</h4>
+                    <div class="img_box">
+                        <img src="./images/content1/bi_logo.png" alt="박카스로고아이콘">
+                    </div>
+                    <div class="logo_txt">
+                        <p><span>BI 소개</span>
+                            <span>‘바커스(Bacchus)’는 로마신화에 나오는 술의 신이다.</span> 
+                            <span>강 명예회장은 간장을 보호한다는 이미지를 줄 수 있는 이름을 생각하던 중 독일 유학 시절에 본 함부르크 시청의 지하 홀 입구에 서있던 술과 추수의 신상 ‘바커스’를 떠올리게 됐다.</span>
+                            <span>주당들을 지켜주고 풍년이 들도록 도와주는 바커스 신. 당시 회사명이나 성분명을 이용해 제품명을 정하는 것이 고작이던 시대에 의약품의 이름에 신화 속 신의 이름을 붙이는 파격적인 상품명으로 1961년 9월 ‘박카스’는 탄생했다.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="introduce_box">
+                    <h3 class="hidden">가그린</h3>
+                    <div class="introduce_txt">
+                        <p><span>가그린</span> 
+                        <span> ‘입안을 깨끗이’라는 뜻을 가진 <strong>‘가그린(Gargle+Clean)’</strong> 의 어원처럼</span>   
+                        <span>39년간 전국민의 구강 위생을 위해 노력해 온 <strong>Oral Care 전문 브랜드</strong>입니다.</span></p>
+                    </div>
+                    <img src="./images/content1/gagreen.png" alt="가그린">
+                </div>
+                <div class="story_box">
+                    <h4>가그린 스토리</h4>
+                    <div class="story_inner">
+                        <p><span>올바르고 효과적인 충치 예방의 시작, 가그린으로 시원하고 상쾌하게!</span> 
+                            <span>칫솔질만으로 부족하셨죠? 이제는 <strong>양치 후</strong> 에도 치아건강관리는 필수 입니다.</span>
+                            <span>가그린으로 한번에! 싹~ <strong>원스탑 5-CARE</strong>하세요.</span>
+                        </p>
+                        <ul>
+                            <li>
+                                <div class="story_list">
+                                    <p>01</p>
+                                </div>
+                                <div class="txt">
+                                    <strong>타르 색소 無첨가</strong>
+                                    <span>입 속 끝까지</span> 타르색소 없이 투명하게
+                                </div>
+                            </li>
+                            <li>
+                                <div class="story_list">
+                                    <p>02</p>
+                                </div>
+                                <div class="txt">
+                                    <strong>저알콜 저자극</strong>
+                                    <span>알코올 함량을 낮추어</span> 저자극으로 건강하게
+                                </div>
+                            </li>
+                            <li>
+                                <div class="story_list">
+                                    <p>03</p>
+                                </div>
+                                <div class="txt">
+                                    <strong>충치 예방 OK!</strong>
+                                    <span>치아에 보호막을</span> 형성하여 충치 예방
+                                </div>
+                            </li>
+                            <li>
+                                <div class="story_list">
+                                    <p>04</p>
+                                </div>
+                                <div class="txt">
+                                    <strong>치은염 예방 OK!</strong>
+                                    <span>구강 내 유해균을 제거,</span> 프라그 생성과 치은염 예방
+                                </div>
+                            </li>
+                            <li>
+                                <div class="story_list">
+                                    <p>05</p>
+                                </div>
+                                <div class="txt">
+                                    <strong>상쾌한 향기!</strong>
+                                    <span>구취제거부터</span>충치원인균까지
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <? include "../common/sub_footer.html" ?>
+        <script src="../common/js/prefixfree.min.js"></script>
+        <script src="./js/slide_move.js"></script>
+        <script src="./js/tab.js"></script>
+        
+</body>
+</html>

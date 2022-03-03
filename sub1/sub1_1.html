@@ -1,0 +1,128 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업소개-인삿말</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content1.css">
+
+</head>
+<body>
+   
+        <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼이미지">
+            <h3>기업소개</h3>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub1_1.html">기업 소개</a></li>
+                <li><a href="./sub1_2.html">회사 연혁</a></li>
+                <li><a href="./sub1_3.html">본사 위치</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">home &gt; 소개 &gt; <strong>인사말</strong></div>
+                <h2>소개</h2>
+                <p>company introduction</p>
+            </div>
+            <div class="content_area">
+                <div class="tap_menu">
+                    <ul>
+                        <li class="current"><a class="link1" href="#">인사말</a></li>
+                        <li><a class="link2" href="#">CI 로고</a></li>
+                    </ul>
+                </div>
+                <div class="intro_box">
+                   <div class="intro_title">
+                        <h4>인사말</h4>
+                        <p><span>소비자 중심 경영</span>을 실천하는 동아제약입니다</p>
+                   </div>
+                    <img src="./images/content1/ceo_image.jpg" alt="동아제약사장">
+                    <div class="txt_box">
+                        <p>여러분, 안녕하십니까.</p>
+                        <p>동아제약 홈페이지를 방문해주셔서 감사합니다.</p>
+                        <p><span>'좋은 약을 만들어 국민 건강에 이바지한다.'</span>
+                            동아제약은 1932년 문을 연 이래 이 창업정신을 바탕으로
+                            국민 곁에서 국민의 건강한 삶을 응원해 왔습니다.</p>
+                        <p>박카스, 판피린, 가그린, 써큐란, 템포, 비겐, 모닝케어 등
+                            수많은 제품들이 각 분야를 선도하며
+                            오랫동안 큰 사랑을 받았습니다.</p>
+                        <p>특히 대표 제품 박카스는 고단한 하루를 위로하고
+                            더 나은 내일을 격려하는 친구처럼
+                            국민과 50년이 넘는 시간을 함께해 왔습니다.</p>
+                        <p>이 자리를 빌려 그동안 동아제약에 보내주신 
+                            여러분의 관심과 성원에 진심으로 감사를 드립니다.</p>
+                    </div>
+                </div>
+                <div class="ci_logo">
+                    <div class="logo_title">
+                        <h4>CI 로고</h4>
+                        <p><span>동아 쏘시오 그룹</span>의 무궁한 발전을 상징합니다 </p>
+                   </div>
+                   <div class="logo_box1">
+                        <div class="logo_tap1">
+                            <ul>
+                                <li class="current"><a class="link1" href="#">피닉스 심볼</a></li>
+                                <li><a class="link2" href="#">CI 로고 타입</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="logo_inner">
+                        <div class="title">
+                            <p>동아쏘시오그룹의 ‘피닉스’ 심볼</p><br>
+                            <p>디자인 모티브는<br>
+                               <span>불사조의 불멸성과 힘차게 비상하는 날개를 컨셉</span>으로 <span>무궁한 발전</span>을 나타냅니다.</p>
+                        </div>
+                        <img src="./images/content1/dong_icon.png" alt="동아제약아이콘">
+                        <div class="txt">
+                            <p><strong>첫째,</strong>영원한 마음가짐으로
+                                고객의 건강과 행복을 위하여 서비스하는 
+                                불변의 동아인을 상징합니다</p>
+                            <p><strong>둘째,</strong>언제나 새로운 연구와 개발로 우수의약품을
+                                생산하여 인류질병 퇴치에 앞장서는 
+                                진취적인 기업으로서의 참모습을 표현합니다.</p>
+                            <p><strong>셋째,</strong>모든 동아인은 동료로서의 믿음과 우호를 함께
+                                나누며 모든 관련기업과도 협동을 바탕으로 
+                                신의를 지켜 사회발전에 일익을 담당한다는
+                                다짐을 나타냅니다</p>
+                        </div>
+                    </div>
+                    <div class="img_box">
+                        <div class="box">
+                            <img src="./images/content1/ci_logo1.png" alt="한문로고">
+                            <span>한문</span>
+                        </div>
+                        <div class="box">
+                            <img src="./images/content1/ci_logo2.jpg" alt="한글로고">
+                            <span>한글</span>
+                        </div>
+                        <div class="box">
+                            <img src="./images/content1/ci_logo3.jpg" alt="영문로고">
+                            <span>영문</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script src="../common/js/prefixfree.min.js"></script>
+        <script src="./js/slide_move.js"></script>
+        
+</body>
+</html>

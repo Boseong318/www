@@ -1,0 +1,29 @@
+/*각각 페이지의 내용 콘텐츠 영역-가치경영 내용*/
+#content{width: 100%;}
+#content .content_box{width: 100%; margin-bottom: 150px;}
+#content .value_heading{width: 1200px; margin: 0 auto; padding-bottom: 80px;}
+#content .value_heading h3{position: relative;}
+#content .value_heading h3::after{content: ''; width: 185px; height: 3px; background: #333; display: block; position: absolute; left: 0; top: 61px;}
+#content .value_heading p{margin-top: 50px; font-weight: 500; line-height: 1.8em; font-size: 1.2em;}
+#content .value_heading p span{color: #01abce; font-size: 20px; margin: 10px 0;}
+
+#content .value_detail{width: 1200px; overflow: hidden; margin: 0 auto;}
+#content .value_detail img{width: 1200px;}
+#content .value_detail ul{width: 1200px; margin: 100px auto 0; padding-bottom: 180px; overflow: hidden;}
+#content .value_detail ul li{}
+#content .value_detail ul li .con{width: 30%; float: left; padding: 0 20px;}
+#content .value_detail ul li .con i{display: block; font-size: 30px; color: #132b46; margin-bottom: 20px;}
+#content .value_detail ul li .con p:first-of-type{font-size: 30px; font-weight: bold; margin-bottom: 20px;}
+#content .value_detail ul li .con p:last-of-type{font-weight: 300; text-align: justify;}
+
+#content .value_detail .con_txt{width: 1200px; margin: 0 auto; line-height: 2em; overflow: hidden;}
+#content .value_detail .con_txt img{width: 400px;}
+#content .value_detail .con_txt p{text-align: justify; margin: 20px auto 0;}
+#content .value_detail .con_txt p:first-of-type{margin-top: 70px;}
+
+
+
+
+
+
+

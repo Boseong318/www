@@ -1,0 +1,123 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연구개발-R&D</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_1content.css">
+
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼이미지">
+            <h3>연구개발</h3>
+        </div>
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub3_1.html">R&D</a></li>
+                <li><a href="./sub3_2.html">연구성과</a></li>
+                <li><a href="./sub3_3.html">과제전략</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">home &gt; 연구개발 &gt; <strong>R&D</strong></div>
+                <h2>R&D</h2>
+                <p>research and development</p>
+            </div>
+            <div class="content_area">
+                <div class="rnd_box">
+                    <div class="rnd_heading">
+                        <h3>R&D</h3>
+                        <p><span>지속적인 R&D</span>를 통해
+                            <span>헬스케어 전문기업</span> 으로 거듭나겠습니다.</p>
+                    </div>
+                    <div class="rnd_detail">
+                        <h4 class="head_line">:DLAB</h4>
+                        <p>동아제약 연구소의 브랜드는 <span>:DLAB</span>입니다.<br>
+                        현재 연구소 산하 2개(어린이 건강연구센터, 더마 연구센터)의 상설 연구센터가 운영되고 있으며,
+                        조성물 특허 등 당사만의 고유한 제제, 제형기술을 연구하고 있습니다.</p>
+                    </div>
+                </div>
+                <div class="vision_box">
+                    <div class="vision_heading">
+                        <h3>VISION</h3>
+                        <p>끊임없는 연구, 개발로 국내 최고의 <span>헬스케어 전문기업으로</span> 성장하겠습니다.</p>
+                    </div>
+                    <div class="vision_list">
+                       <ul>
+                           <li class="detail_box">
+                               <a href="#tab">
+                                   <span>동아제약&nbsp;비전</span>
+                                   <img src="./images/content1/donga_vision.jpg" alt="동아제약비전사진">
+                                   <p>Healthcare 산업 내 고객 니즈를 충족시키는 혁신적 제품과 서비스 개발</p>
+                               </a>
+                           </li>
+                           <li class="arrow">
+                               <img src="./images/content1/arrow.png" alt="화살표이미지">
+                               <img src="./images/content1/arrow.png" alt="화살표이미지">
+                               <img src="./images/content1/arrow.png" alt="화살표이미지">
+                           </li>
+                           <li class="detail_box">
+                            <a href="#tab">
+                                <span>&#58;DLAB&nbsp;비전</span>
+                                <img src="./images/content1/dlab_vision.jpg" alt="디랩비전사진">
+                                <p>창조적 아이디어로 혁신적 과학 기반의 글로벌 제품을 개발하는 전문 연구 조직</p>
+                            </a>
+                        </li>
+                       </ul>
+                    </div>
+                    <div class="dlab_box">
+                        <div class="dlab_heading">
+                            <h3>&#58;DLAB</h3>
+                            <p>동아제약&#40;주&#41;&nbsp;연구소</p>
+                        </div>
+
+                        <div class="dlab_content">
+                            <div class="dlab_detail1">
+                                <div class="dlab_right">
+                                    <img src="./images/content1/brand.jpg" alt="브랜드연구이미지">
+                                </div>
+                                <div class="dlab_left">
+                                    <h4>브랜드연구</h4>
+                                    <p>Global leading cell & gene therapy company로 자리매김하겠습니다</p>
+                                    <p class="txt"><span>박카스&#44;가그린&#44;모닝케어&nbsp;등 BIG 브랜드 제품 연구</span>
+                                        <span>브랜드 기반 연구</span></p>   
+                                    
+                                </div>
+                            </div>
+                            <div class="dlab_detail2">
+                                <div class="dlab_left">
+                                    <img src="./images/content1/brand2.jpg" alt="신제품연구이미지">
+                                </div>
+                                <div class="dlab_right">
+                                    <h4>신제품연구</h4>
+                                    <p>최고의 기술력으로 케미컬 분야의 선도자가 되겠습니다.</p>
+                                    <p class="txt"><span>신제품&nbsp;연구&#40;의약품&#41;&nbsp;&#40;의약외품&#41;&nbsp;&#40;건강식품&#41;&nbsp;</span>
+                                        <span>플랫폼 신기술 연구</span></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script src="../common/js/prefixfree.min.js"></script>
+        <script src="./js/scroll.js"></script>
+
+</body>
+</html>

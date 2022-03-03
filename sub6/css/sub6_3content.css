@@ -1,0 +1,30 @@
+#content .txt{margin-bottom: 100px;}
+#content h3{font-size: 1.4rem;}
+
+.content_area{width: 100%; margin: 50px auto 150px; overflow: hidden;}
+.content_area .info{font-size: 1rem; margin-bottom: 5px;}
+.content_area .mail_form{width: 100%; border-top: 2px solid #01abce; margin-top: 15px;}
+
+.content_area .control-group{padding: 20px 20px;}
+.content_area .controls{width: 100%;}
+
+.content_area .import{display: inline-block; color: #01abce;}
+.content_area label{font-size: 1.3rem;}
+.content_area .input{width: 98%; font-size: .9rem; background: #f0f0f0; border: none; border-radius: 5px 5px; padding: 15px 20px; margin-top: 15px;} 
+.content_area .help-block{color: #01abce; font-size: .789rem; padding: 5px 15px;}
+
+.content_area .send{text-align: center;}
+.content_area .btn-success{color: #f0f0f0; background: #01a0ca; border: 1px solid #01a0ca; border-radius: 5px 5px; font-size: .9rem; padding: 10px 30px; transition: all .2s ease-in-out;}
+.content_area .send button:hover{color: #01a0ca; background: #f0f0f0; border: 1px solid #01a0ca; transition: all .3s ease-in-out;}
+
+.agreement{width: 100%; overflow: hidden;}
+.agreement i{display: block; margin: 10px auto;}
+.agreement .policy_wrap{width: 96%; margin: 0 auto; padding: 20px 0 80px;}
+.agreement .policy_wrap .policy{text-align: justify; border: 1px solid #999; padding: 20px 30px;}
+.policy p{font-size: 1rem; font-weight: bold;}
+.policy dl{font-size: .9rem; padding: 0 10px;}
+.policy dl dt{font-weight: 600; margin-bottom: 10px;}
+.policy dl dd{font-size: .8rem; line-height: 1.2rem;}
+
+.agreement .check{margin: 10px 15px; text-align: right;}
+.agreement .check label{font-size: .8rem;}

@@ -1,0 +1,46 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업홍보-제품소식</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_2content.css">
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual2.jpg" alt="비주얼이미지">
+            <h3>기업홍보</h3>
+        </div>
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub5_1.html">뉴스</a></li>
+                <li class="current"><a href="./sub5_2.html">제품소식</a></li>
+                <li><a href="./sub5_3.html">공지사항</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">home &gt; 기업홍보 &gt; <strong>제품소식</strong></div>
+                <h2>제품소식</h2>
+                <p>product news</p>
+            </div>
+           
+        </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="../common/js/prefixfree.min.js"></script>
+  
+
+</body>
+</html>

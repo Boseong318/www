@@ -1,0 +1,16 @@
+/* member_form_modify */
+ul{margin: 20px 0;}
+li{margin-bottom: 15px;}
+li>label{display: inline-block; font-weight: bold; width: 20%; text-align: justify;}
+li>div{display: inline-block; width: 76%;}
+li>div>input{width: 70%;}
+#loadtext2{margin-left: 160px;}
+
+
+li>input{width: 53%;}
+li:nth-last-child(1)>input{width: 20%;}
+
+
+.hp{width: 14.5%; font-size: 1rem;}
+
+.btn{width: 310px; overflow: hidden; margin: 0 auto; padding: 20px 0;}

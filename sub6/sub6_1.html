@@ -1,0 +1,115 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객지원-상담절차</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <link rel="stylesheet" href="./css/sub6_1content.css">
+
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼이미지">
+            <h3>고객지원</h3>
+        </div>
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub6_1.html">상담절차</a></li>
+                <li><a href="./sub6_2.html">FAQ</a></li>
+                <li><a href="./sub6_3.html">온라인상담</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">home &gt; 고객지원 &gt; <strong>상담절차</strong></div>
+                <h2>상담절차</h2>
+                <p>consultation inquiry</p>
+            </div>
+            <p class="txt">고객과 소통하며 성장하는 동아제약입니다</p>
+            <div class="content_area">
+                <div class="consult_box">
+                    <div class="consult_heading">
+                        <h3>상담절차</h3>
+                        <p><span>동아제약</span>은 언제나 <strong>고객님</strong>의
+                            <span>편의</span>를 최우선으로 생각하겠습니다
+                        </p>
+                    </div>
+                    <div class="process">
+                        <ul>
+                            <li>
+                                고객문의 <span>접수</span>
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="hidden">오른쪽 화살표</span>
+                            </li>
+                            <li>
+                                관련담당자 <span>통보</span>
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="hidden">오른쪽 화살표</span>
+                            </li>
+                            <li>
+                                문의사항 <span>처리</span>
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="hidden">오른쪽 화살표</span>
+                            </li>
+                            <li>
+                                고객에게 <span>연락</span>
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="hidden">오른쪽 화살표</span>
+                            </li>
+                            <li>
+                                고객문의 <span>완료</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="call_box">
+                    <div class="call_heading">
+                        <h3>전화 상담</h3>
+                    </div>
+                    <div class="call_info">
+                        <div class="info_box">
+                            <h4>고객만족팀 운영시간 안내</h4>
+                            <span class="hidden">운영시간 안내</span><i class="fas fa-user-clock"></i>
+                            <p><strong>오전 9:30 ~ 오후 5:00</strong> (점심시간 12:00 ~ 13:00 제외)
+                                <span>토,일요일 및 법정 공휴일(국경일, 명절, 종교적기념일, 선거일 등), 정기휴가(하계휴가) 제외</span>
+                            </p>
+                        </div>
+                        <div class="info_box">
+                            <h4>고객상담 전화안내</h4>
+                            <span class="hidden">전화번호 안내</span><i class="fas fa-headset"></i>
+                            <p><strong>080-920-2000</strong>
+                                <span>고객님의 불편 및 기타 문의 사항을 접수하고 상담하여 드립니다.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mail_box">
+                        <div class="mail_heading">
+                            <h3>우편 상담</h3>
+                        </div>
+                        <div class="mail_info">
+                            <h4>우편 상담안내</h4>
+                            <span class="hidden">우편번호 안내</span><i class="fas fa-envelope"></i>
+                            <p><strong>주소 : 서울시 동대문구 천호대로 64 동아제약 고객만족팀, 우편번호 02587</strong>
+                                <span>위 주소로 우편 연락을 주시면 상담이 가능합니다.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script src="../common/js/prefixfree.min.js"></script>
+</body>
+</html>

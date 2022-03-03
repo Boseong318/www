@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family:"Noto Sans KR", "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px;
+  color: #333;}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: inherit; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+/* skipNav */
+#skipNav{position: relative; width:100%; overflow: hidden; z-index: 110}
+#skipNav a{display: block; height: 1px; margin-bottom: -1px; overflow: hidden; text-align:center; color:#fff; font-size: 16px; font-weight: bold;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{height: auto; padding: 10px 0; background: #132146;}
+
+/* font-family: 'Noto Sans KR', sans-serif; font-weight: 700;
+font-family: 'Roboto', sans-serif; */
+
+.wrap{width: 100%; overflow: hidden;}
+
+/* header 공통영역 */
+#headerArea{width: 100%; position: fixed; left: 0; top: 0; z-index: 100; background: #fff; border-bottom: 1px solid #ccc;}
+#headerArea::before{content: ''; width: 100%; height: 30px; background: #132146; display: block; position: absolute; left: 0; top: 0;}
+
+#headerArea .header_inner{width: 1125px; height: 30px; margin: 0 auto; }
+#headerArea .top_menu_box{height: 30px; position: relative;}
+#headerArea .top_menu {position: absolute; right: 0; top: 0;}
+#headerArea .login{float: left;}
+#headerArea .join {float: left; margin-left: 20px;}
+#headerArea .top_menu a{color: #ccc;}
+#headerArea .top_menu a:hover{color: #fff;}
+#headerArea .logo{width: 192px; height: 38px; float: left; margin: 30px 0 0 30px;}
+#headerArea .logo a{display: block; width: 192px; height: 34px; background: url(../images/logo1.png); text-indent: -999px; overflow: hidden; float: left;}
+
+#headerArea .header_bottom{width: 1200px; margin: 0 auto;}
+#gnb{float: left; width: 947px;} 
+#gnb ul.dropdownmenu{}
+#gnb ul.dropdownmenu li.menu{position:relative; float:left; width:16.66%; }
+#gnb ul.dropdownmenu li h3{font-size: 20px; padding: 30px 0 18px;}
+#gnb ul.dropdownmenu li a.depth1{display:block; text-align: center; transition: all .5s; font-weight: 500; line-height: 2em;}
+
+#gnb ul.dropdownmenu li ul{width:100%; height:200px; position:absolute; top: 79px; left:0; padding:15px 0; line-height:2.1em; display:none;}
+
+#gnb ul.dropdownmenu li ul li{ text-align:center; position: relative;}
+#gnb ul.dropdownmenu li ul li a{display:block;  color:#666; transition: all .5s;}
+#gnb ul.dropdownmenu li ul li a:hover{color: #01abce;}
+#gnb ul.dropdownmenu li ul li a:hover::before{width: 60%;}
+#gnb ul.dropdownmenu li ul li a::before{content: ''; position: absolute; left: 50%; bottom: 0; width: 0; height: 1px; background: #01abce;; transform: translateX(-50%); transition: all 300ms;}
+
+/* footer 공통영역 */
+#footerArea{width: 100%; background: #333; margin: 0 auto; padding-bottom: 35px;}
+
+#footerArea .footer_inner{width: 100%; color: #ccc;}
+
+#footerArea .footer_inner .footer_top{width: 100%; height: 35px; padding-top: 10px; border-bottom: 1px solid #ccc;}
+#footerArea .footer_inner .footer_top .top_box{width: 1000px; margin: 0  auto;}
+#footerArea .top_box .top_txt{}
+#footerArea .top_txt ul li{float: left; margin: 0 0 0 50px;}
+#footerArea .top_txt ul li a{display: block;}
+#footerArea .top_txt ul li a:hover{color: #fff;}
+
+/* #footerArea .family{width: 140px; float: right; margin: 0 100px; border: 1px solid #ccc; padding: 0 5px 3px 10px; position:relative;}
+#footerArea .family .arrow{ display:block; font-size:1em; padding-top: 1px; text-align: center;}
+#footerArea .family .select .arrow:hover{color:#666}
+#footerArea .family .select .aList{ position:absolute; top:25px; left:-1px; width:150px; border:1px solid #ccc; display:none}
+#footerArea .family .select .aList li{ line-height:1.5em; border-bottom:1px solid #ccc;}
+#footerArea .aList li a{display:block; padding-left:20px}
+#footerArea .aList li a:hover{ background:#F0F0F0; color:#666}
+#footerArea .family i{margin: 0 0 0 30px;} */
+
+#footerArea .select{width:160px; height:25px; border:1px solid #ccc; position:relative; float: right;}
+#footerArea .select .arrow{display:block; font-size:1em; text-align: center; padding-top: 1px;}
+#footerArea .select .arrow:hover{color:#666}
+#footerArea .select .arrow i{margin-left: 13px;}
+#footerArea .select .aList{width:160px; position:absolute; top:25px; left:-1px; border:1px solid #ccc; display:none;}
+#footerArea .select .aList li{line-height:1.5em; background: #333; padding: 4px;}
+#footerArea .select .aList li a{display:block;}
+#footerArea .select .aList li a:hover{ background:#F0F0F0; color:#666}
+
+
+#footerArea .footer_inner .footer_bottom{width: 100%; margin-top: 20px;}
+#footerArea .footer_inner .footer_bottom .bottom_box{width: 1000px; overflow: hidden; margin: 0 auto;}
+#footerArea .footer_inner .footer_bottom .bottom_box .footer_left{float: left; overflow: hidden;}
+#footerArea .footer_inner .footer_bottom .bottom_box .footer_left .footer_logo{width: 131px; height: 23px; background: url(../images/logo2.png) no-repeat; float: left; margin: 30px 50px 0;}
+#footerArea .footer_inner .footer_bottom .footer_left .ad_txt{float: right;}
+#footerArea .footer_inner .footer_bottom .footer_left .ad_txt address{line-height: 1.8em;}
+
+#footerArea .footer_inner .footer_bottom .sns{float: right; margin-right: 90px;}
+#footerArea .footer_inner .footer_bottom .sns li{float: left; font-size: 1.8em; padding: 0 7px;}
+#footerArea .footer_inner .footer_bottom .sns li a{color: #ccc;}
+
+#footerArea .footer_inner .footer_bottom .sns li i::before{color: #ababab;}
+/*top move*/
+.topMove{display: block; position: fixed; left: 50%; margin-left: 650px; bottom: 278px; z-index: 50;}
+.topMove i {font-size: 50px; color: #01abce;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

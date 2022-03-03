@@ -1,0 +1,354 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동아제약</title>
+    
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./maincss/main.css">
+    
+</head>
+<body>
+    <? include "./common/main_header.html" ?>
+            <div class="visual">
+                <div class="gallery">
+                    <ul>
+                        <li><a href="./sub1/sub1_1.html"><img src="./images/visual.jpg" alt='동아제약소개이미지'></a></li>
+                        <li><a href="./sub4/sub4_2.html"><img src="./images/visual2.jpg" alt='사회공헌이미지'></a></li>
+                        <li><a href="./sub3/sub3_3.html"><img src="./images/visual3.jpg" alt='과제전략이미지'></a></li>
+                        <li><a href="./sub3/sub3_2.html"><img src="./images/visual4.jpg" alt='연구성과이미지'></a></li>
+                    </ul>
+                </div>
+                <div class="gallery_text">
+                    <ul>
+                        <li>
+                            <p>언제까지나, 함께, 건강하게</p>
+                            <span>건강한 생활 속에 동아제약이 함께합니다</span>
+                        </li>
+                        <li>
+                            <p>함께 하는 동아제약</p>
+                            <span>밝고 따뜻한 사회를 위해 기업의 사회적 책임을 다하겠습니다.</span>
+                        </li>
+                        <li>
+                            <p>동아 제약, 전 세계로</p>
+                            <span>글로벌 마켓 진출을 전략 목표로 나아가겠습니다</span>
+                        </li>
+                        <li>
+                            <p>동아제약의 목표</p>
+                            <span>끊임없는 연구 개발로 국내 최고의 헬스케어 전문기업으로 성장하겠습니다.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dock">
+                    <span class="mbutton btn1"></span>
+                    <span class="mbutton btn2"></span>
+                    <span class="mbutton btn3"></span>
+                    <span class="mbutton btn4"></span>
+                    <span class="ps"></span>
+                </div>
+            </div> 
+            <article id="content">
+                <h2 class="hidden">본문콘텐츠영역</h2>
+                <div class="search">
+                    <div class="search_inner">
+                        <img src="./images/search_img.png" alt="가그린">
+                        <div class="left">
+                            <div class="txt_box">
+                                <p class="search_title">제품찾기</p>
+                                <p class="search_txt">국민 건강 증진에 기여하는<br>동아제약의 제품을 소개합니다</p>
+                                <form class="search_form" action="./event/list.php?table=event&mode=search" method="post">
+
+                                    <label class="hidden" for="find">상품명</label>
+
+                                    <input type="hidden" id="find" name="find" value="subject">
+
+                                    <label class="hidden" for="search_box2">검색</label>
+                                    <input type="text" class="search_box" name="search" id="search_box2" placeholder="제품이 있나요?">
+                                    <button type="submit" value="검색" onclick="check_search()"><i class="fas fa-search"></i></button>
+                                    <!-- <button type="button"><i class="fas fa-search"><span class="hidden">제품이 있나요?</span></i></button> -->
+                                    <!-- <input type="text" name="search" id="search" placeholder="제품이 있나요?">
+                                    <button type="submit" value="전송"><i class="fas fa-search"><span class="hidden">제품이 있나요?</span></i></button> -->
+                                </form>
+                            </div>
+
+                            <div class="recommend_txt">
+                                <dl>
+                                    <dt>추천 검색어</dt>
+                                    <dd><a href="./event/list.php"># 암씨롱 에프액</a></dd>
+                                    <dd><a href="./event/list.php"># 챔프</a></dd>
+                                    <dd><a href="./event/list.php"># 베나치오</a></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <h3><a href="./sub2/sub2_1.html">베스트제품</a></h3>
+                    <p>국민 건강 증진에 기여하는 동아제약의 제품을 소개합니다</p>
+                    <div class="con_box">
+                        <div class="con">
+                            <h4>박카스</h4>
+                            <a href="./sub2/sub2_1.html" class="btn_more"><i class="fas fa-plus"></i><span class="hidden">더보기버튼</span></a>
+                            <span>오늘 하루도 스스로에게 <br>작은 칭찬과 박카스 한병 선물하세요</span>
+                            <img src="./images/best_bac.png" alt="박카스 전제품 이미지">
+                        </div>     
+                        <div class="con">
+                            <h4>가그린</h4>
+                            <a href="./sub2/sub2_1.html" class="btn_more"><i class="fas fa-plus"></i><span class="hidden">더보기버튼</span></a>
+                            <span>대한민국 국민의 구강 건강을 책임지는 <br>Oral Care 전문 브랜드 가그린</span>
+                            <img src="./images/best_gag.png" alt="가그린 전제품 이미지">
+                        </div>
+                        <ul class="sub_menu_box">
+                            <li><a href="#" class="button m1"><img src="./images/best_img1.png" alt="박카스버튼"></a></li>
+                            <li><a href="#" class="button m2"><img src="./images/best_img2.png" alt="가그린버튼"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <section class="content_bot best_product">
+                    <div class="best_product_inner">
+                         <h3>연구개발</h3>
+                         <p>새로운 연구개발 제품을 소개합니다</p>
+                         <div class="w-gallery">
+                             <div id="responsiveGallery-container" class="responsiveGallery-container">
+                              <a class="responsiveGallery-btn responsiveGallery-btn_prev" href="javascript:void(0);"></a> 
+                              <a class="responsiveGallery-btn responsiveGallery-btn_next" href="javascript:void(0);"></a>
+                               <ul class="responsiveGallery-wrapper">
+                                 <li class="responsiveGallery-item"> 
+                                     <a href="./sub3/sub3_2.html" class="responsivGallery-link">
+                                         <img src="./images/result1.png" height="320" width="320" alt="벤투스 S2 AS" class="responsivGallery-pic">
+                                         <div class="w-responsivGallery-info">
+                                             <dl>
+                                                 <dt class="responsivGallery-name">박카스맛 젤리</dt>
+                                                 <dd class="responsivGallery-position">쫀득하게 씹고 풀자!</dd>
+                                             </dl>
+                                         </div>
+                                     </a>
+                                 </li>
+                                 <li class="responsiveGallery-item"> 
+                                     <a href="./sub3/sub3_2.html" class="responsivGallery-link">
+                                         <img src="./images/result2.png" height="320" width="320" alt="다이나프로 HL3" class="responsivGallery-pic">
+                                         <div class="w-responsivGallery-info">
+                                             <dl>
+                                                 <dt class="responsivGallery-name">파티온 폼클렌징</dt>
+                                                 <dd class="responsivGallery-position">피부 본연의 건강함을 깨우는 더마 에너지</dd>
+                                             </dl>
+                                         </div>
+                                     </a>
+                                 </li>
+                                 <li class="responsiveGallery-item"> 
+                                     <a href="./sub3/sub3_2.html" class="responsivGallery-link">
+                                         <img src="./images/result3.png" height="320" width="320" alt="키너지 AS EV" class="responsivGallery-pic">
+                                         <div class="w-responsivGallery-info">
+                                             <dl>
+                                                 <dt class="responsivGallery-name">네일매드</dt>
+                                                 <dd class="responsivGallery-position">합리적인 가격과 품질, 확실한 효과</dd>
+                                             </dl>
+                                         </div>
+                                     </a>
+                                 </li>
+                                 <li class="responsiveGallery-item"> 
+                                     <a href="./sub3/sub3_2.html" class="responsivGallery-link">
+                                         <img src="./images/result4.png" height="320" width="320" alt="다이나프로 올 터레인" class="responsivGallery-pic">
+                                         <div class="w-responsivGallery-info">
+                                             <dl>
+                                                 <dt class="responsivGallery-name">셀파렉스</dt>
+                                                 <dd class="responsivGallery-position">에센셜 포 맨 30일분</dd>
+                                             </dl>
+                                         </div>
+                                     </a>
+                                 </li>
+                                 <li class="responsiveGallery-item"> 
+                                     <a href="./sub3/sub3_2.html" class="responsivGallery-link">
+                                         <img src="./images/result5.png" height="320" width="320" alt="Smart Plus2" class="responsivGallery-pic">
+                                         <div class="w-responsivGallery-info">
+                                             <dl>
+                                                 <dt class="responsivGallery-name">미니막스</dt>
+                                                 <dd class="responsivGallery-position">프로바이오틱스아연</dd>
+                                             </dl>
+                                         </div>
+                                     </a>
+                                 </li>
+                                 <li class="responsiveGallery-item"> 
+                                    <a href="./sub3/sub3_2.html" class="responsivGallery-link">
+                                        <img src="./images/result6.png" height="320" width="320" alt="Smart Plus2" class="responsivGallery-pic">
+                                        <div class="w-responsivGallery-info">
+                                            <dl>
+                                                <dt class="responsivGallery-name">미니막스</dt>
+                                                <dd class="responsivGallery-position">칼슘 비타민D 60구미</dd>
+                                            </dl>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="responsiveGallery-item"> 
+                                    <a href="./sub3/sub3_2.html" class="responsivGallery-link">
+                                        <img src="./images/result7.png" height="320" width="320" alt="Smart Plus2" class="responsivGallery-pic">
+                                        <div class="w-responsivGallery-info">
+                                            <dl>
+                                                <dt class="responsivGallery-name">미니막스</dt>
+                                                <dd class="responsivGallery-position">칼슘 비타민C 60구미</dd>
+                                            </dl>
+                                        </div>
+                                    </a>
+                                </li>
+                               </ul>
+                             </div> 
+                         </div>
+                    </div>
+                 </section>
+            
+                <div class="management">
+                    <h3><a href="./sub4/sub4_1.html">경영철학</a></h3>
+                    <p>동아제약은 밝고 따뜻한 사회를 만들기 위해 기업의 사회적 책임을 다하겠습니다</p>
+                    <div class="management_wrap">
+                        <ul>
+                            <li class="management_box">
+                                <a href="./sub4/sub4_1.html">
+                                    <p class="circle_img01">혁신추구 이미지</p>
+                                    <dl>
+                                        <dt>가치경영</dt>
+                                        <dd>작은 혁신으로 시작하여 <br>혁신의 크기를 발전시켜 나간다</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li class="management_box">
+                                <a href="./sub4/sub4_2.html">
+                                    <p class="circle_img02">변화주도이미지</p>
+                                    <dl>
+                                        <dt>사회공헌</dt>
+                                        <dd>현실에 안주하지 않고<br>열린 마음으로 변화를 수용한다</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li class="management_box">
+                                <a href="./sub4/sub4_3.html">
+                                    <p class="circle_img03">상호신뢰이미지"</p>
+                                    <dl>
+                                        <dt>정도경영</dt>
+                                        <dd>서로의 목표를 이해하고<br>공감하며 WIN-WIN을 추구한다</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div class="service">
+                    <div class="service_inner">
+                        <h3><a href="./sub6/sub6_3.html">고객지원</a></h3>
+                            <span>고객을 먼저 생각하는 기업, <strong>동아제약</strong> 입니다</span>
+                            <span>동아제약은 언제나 <strong>고객님의 편의</strong>를 먼저 생각합니다</span>
+                        <a class="service_btn" href="./sub6/sub6_3.html">온라인 상담 바로가기</a>
+                    </div>
+                </div>
+
+
+                <? include "./lib/func.php"; ?>	
+                <div class="news">
+                  <h3>뉴스</h3>
+                    <div class="news_box">
+                        <? latest_article("concert", 3, 15); ?>
+                        <!-- latest_article("greet", 5, 30); -->
+                        <!-- <ul>
+                            <li>
+                                <a href="./concert/view.php?table=concert&num=2&page=2">
+                                    <div class="newscon">
+                                        <img src="./images/news1.png" alt="포스터이미지">
+                                        <div class="news_txt">
+                                            <p>저칼로리 과일탄산 오란씨,<br>
+                                            출시 50주년 기념 오란씨<br>
+                                            바이오페트 구매 인증 이벤트 진행</p>
+                                            <span>[2021.11.04]</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="./concert/view.php?table=concert&num=1&page=2">
+                                    <div class="newscon">
+                                        <img src="./images/news2.png" alt="수상이미지">
+                                        <div class="news_txt">
+                                            <p>동아쏘시오홀딩스,<br>
+                                            '2021 기업지배구조보고서<br>
+                                            공시우수법인' 수상</p>
+                                            <span>[2021.10.27]</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>     
+                                <a href="./concert/view.php?table=concert&num=3&page=2">
+                                    <div class="newscon">
+                                        <img src="./images/news3.png" alt="포스터이미지">
+                                        <div class="news_txt">
+                                            <p>조르단 코리아,<br>
+                                            러닝 기부 캠페인<br>
+                                            ‘하트런 챌린지’ 실시</p>
+                                            <span>[2021.07.11]</span>
+                                        </div>
+                                        
+                                    </div>
+                                </a>
+                            </li>
+                        </ul> -->
+                        <a class="news_btn" href="./concert/list.php">더보기</a>
+                    </div>
+                </div>
+                
+            </article>
+
+        <? include "./common/main_footer.html" ?>
+         <!-- responsiveGallery 플러그인 -->
+        <script src="./mainjs/modernizr.custom.js"></script>
+        <script src="./mainjs/jquery.responsiveGallery.js"></script>
+        <script>
+            $(function () {  //호출코드
+                    $('.responsiveGallery-wrapper').responsiveGallery({
+                        animatDuration: 400, 
+                        $btn_prev: $('.responsiveGallery-btn_prev'),
+                        $btn_next: $('.responsiveGallery-btn_next')
+                    });
+                });
+        </script>
+        <script src="./common/js/prefixfree.min.js"></script>
+        <script src="./mainjs/mainpopup.js"></script>
+        <script src="./mainjs/tab.js"></script>
+        <script src="./mainjs/move.js"></script>
+        <script src="./mainjs/scroll_index.js"></script>
+
+
+
+    <!-- 공지사항 팝업 -->
+    <div id="showimage" style="z-index:99;position:absolute;width:322px;left:100px;top:250px;">
+        <script>
+          function closeWin(){
+             var chk = document.getElementById('Notice')
+             if ( chk.checked ) {
+                   setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+                }
+            }
+            if ( getCookie( "Notice" ) == "done" ){
+                hidebox();}
+        </script>
+            <div>
+                <img src="./popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.">
+            </div>
+            <div style="font-size:12px;text-align:center;color:#fff;">
+                <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+                <a href="#"  onclick="closeWin();hidebox();return false;"> [close]</a>
+            </div>
+    </div>
+
+      
+
+</body>
+</html>

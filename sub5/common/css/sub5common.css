@@ -1,0 +1,19 @@
+/* sub5 공통 - 비주얼/서브네비/타이틀영역*/
+
+.visual{width: 2000px; margin-top: 98px; position: relative; left: 50%; margin-left: -1000px; top: 0;}
+.visual h3{position: absolute; text-align: center; font-size: 36px; left: 0; top: 125px; width: 100%; color: #fff; font-weight: 500;}
+#content h2{text-align: center; font-size: 50px; margin-bottom: 5px;}
+#content h3{font-size: 40px;}
+#content h4{font-size: 30px; margin-bottom: 40px;}
+
+.sub_menu{width: 1200px; margin: 0 auto; position: relative; top: -61px; margin-bottom: -64px;}
+.sub_menu ul{overflow: hidden; width: 540px; margin: 0 auto;}
+.sub_menu li{float: left; width: 180px;}
+.sub_menu li a{display: block; font-size: 20px; padding: 15px 0; background: rgba(255,255,255,.9); border: 1px solid #ccc; text-align: center; transition: all .5s;}
+.sub_menu li a:hover{background: #01abce; color: #fff; font-weight: bold;}
+.sub_menu .current a{background: #01abce; color: #fff; border: 1px solid #01abce; font-weight: bold;}
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 100px;}
+#content .title_area p{text-align: center; font-size: 24px; font-weight: 300; margin-bottom: 130px;}
+#content .line_map{position: absolute; right: 15px; top: 15px;}

@@ -1,0 +1,24 @@
+{
+  "events": [
+    {
+      "heading": "박카스",
+      "link":"sub2/sub2_1.html",
+      "class":"btn_more",
+      "span1": "오늘 하루도 스스로에게",
+      "span2": "작은 칭찬과 박카스 한병 선물하세요",
+      "product":"images/best_bac.png",
+      "alt2":"박카스 전제품 이미지"
+
+    },
+    {
+      "heading": "가그린",
+      "link":"sub2/sub2_1.html",
+      "class":"btn_more",
+      "span1": "대한민국 국민의 구강 건강을 책임지는",
+      "span2": "Oral Care 전문 브랜드 가그린",
+      "product":"images/best_gag.png",
+      "alt2":"가그린 전제품 이미지"
+
+    }
+  ]
+}

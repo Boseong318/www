@@ -1,0 +1,169 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품소개_의약외품</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content2.css">
+
+   
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼이미지">
+            <h3>제품소개</h3>
+        </div>
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub2_1.html">베스트제품</a></li>
+                <li class="current"><a href="./sub2_2.html">의약외품</a></li>
+                <li><a href="./sub2_3.html">일반의약품</a></li>
+                <li><a href="./sub2_4.html">생활건강</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">home &gt; 소개 &gt; <strong>의약외품</strong></div>
+                <h2>의약외품</h2>
+                <p>sanitary aid</p>
+            </div>
+            <div class="content_area">
+                <div class="tab_menu">
+                    <ul>
+                        <li><a class="link1" href="#">자양강장제</a></li>
+                        <li><a class="link2" href="#">구강관련제제</a></li>
+                        <li><a class="link3" href="#">여성용품</a></li>
+                    </ul>
+                </div>
+                <div class="pro_list">
+                    <div id="product_box" class="pro_box">
+                        <h4 class="con1">자양강장제</h4>
+                        <ul class="pop_menu">
+                            <li>
+                                <a href="#">
+                                    <div class="img_box more_btn">
+                                        <img src="./images/content2/product_0.jpg" alt="박카스디액">
+                                    </div>
+                                    <p><span>박카스</span> 
+                                        박카스 디액</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content2/product_1.jpg" alt="박카스디액">
+                                    </div>
+                                    <p><span>박카스</span> 
+                                        박카스 에프액</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content2/product_2.jpg" alt="박카스디액">
+                                    </div>
+                                    <p><span>박카스</span> 
+                                        박카스 디카페인</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="modal_box"></div>
+                        <div class="popup modal1">
+                            <img src="./images/content2/big1.jpg" alt="">
+                            
+                            <div class="txt">
+                            
+                            </div>
+                            <div class="info">
+                            
+                            </div>
+                            <a href="#" class="close_btn">닫기</a>
+                        </div>
+                    </div>
+                    <div class="pro_box">
+                        <h4 class="con2">구강관련제제</h4>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content2/product_3.jpg" alt="박카스디액">
+                                    </div>
+                                    <p><span>가그린</span> 
+                                        어린이용</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content2/product_4.jpg" alt="박카스디액">
+                                    </div>
+                                    <p><span>가그린</span> 
+                                        오리지널</p>
+                                </a>        
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content2/product_5.jpg" alt="박카스디액">
+                                    </div>
+                                    <p><span>가그린</span> 
+                                        블라스트 치약</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pro_box">
+                        <h4 class="con3">여성용품</h4>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content2/product_6.jpg" alt="박카스디액">
+                                    </div>
+                                    <p><span>템포 네추럴</span> 
+                                        순면 오버나이트</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content2/product_7.jpg" alt="박카스디액">
+                                    </div>
+                                    <p><span>템포 내추럴</span> 
+                                        순면 패드</p>
+                                </a>        
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img_box">
+                                        <img src="./images/content2/product_8.jpg" alt="박카스디액">
+                                    </div>
+                                    <p><span>템포 탐폰</span> 
+                                        레귤러, 슈퍼</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <? include "../common/sub_footer.html" ?>
+        <script src="../common/js/prefixfree.min.js"></script>
+        <script src="./js/slide_move_1.js"></script>
+        <script src="./js/sub2_2.js"></script>
+        <!-- <script src="./js/data-json.js"></script> -->
+</body>
+</html>

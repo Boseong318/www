@@ -1,0 +1,126 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연구개발-연구성과</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_2content.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="비주얼이미지">
+        <h3>연구개발</h3>
+    </div>
+    <div class="sub_menu">
+        <ul>
+            <li><a href="./sub3_1.html">R&D</a></li>
+            <li class="current"><a href="./sub3_2.html">연구성과</a></li>
+            <li><a href="./sub3_3.html">과제전략</a></li>
+        </ul>
+    </div>
+    <article id="content">
+        <div class="title_header">
+            <div class="title_area">
+                <div class="line_map">home &gt; 연구개발 &gt; <strong>연구성과</strong></div>
+                <h2>연구성과</h2>
+                <p>research result</p>
+            </div>
+        </div>
+            <div class="content_area">
+                <div class="outcome_box">
+                    <div class="outcome_heading">
+                        <h3>연구성과</h3>
+                        <p>동아제약의 <span>대표적인 연구성과</span>입니다</p>
+                    </div>
+                    <div class="outcome_list">
+                        <ul>
+                            <li>
+                                <div class="circle">
+                                   <p><span>Business</span>
+                                        <span>188,966,539</span>천원
+                                        <span>경제적 가치</span>
+                                    </p> 
+                                </div>
+                            </li>
+                            <li>
+                                <div class="circle">
+                                    <p><span>Society</span>
+                                        <span>180,274,324</span>원
+                                        <span>사회공헌규모</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="circle">
+                                    <p><span>People</span>
+                                        <span>960</span>명
+                                        <span>임직원수</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product_list">
+                        <h3 class="hidden">주요성과</h3>
+                        <ul>
+                            <li>
+                                <a href="http://www.bacchusd.com/product.html#bacchusd-jelly" target="blank" title="박카스맛젤리 새창에서 열기">
+                                    <h4 class="heading">식품</h4>
+                                    <div class="detail">
+                                        <img src="./images/content2/jelly.jpg" alt="박카스맛젤리이미지">
+                                        <span>박카스맛 젤리</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.dmall.co.kr/brands/fation/philosophy.html" target="blank" title="파티온 새창에서 열기">
+                                    <h4 class="heading">화장품</h4>
+                                    <div class="detail">
+                                        <img src="./images/content2/fation.jpg" alt="파티온이미지">
+                                        <span>파티온</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.dmall.co.kr/brands/minimax/philosophy.html" target="blank" title="미니막스 새창에서 열기">
+                                    <h4 class="heading">건강기능식품</h4>
+                                    <div class="detail">
+                                        <img src="./images/content2/minimax.jpg" alt="미니막스이미지">
+                                        <span>미니막스</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.dmall.co.kr/brands/neilmed/philosophy.html" target="blank" title="네일메드 새창에서 열기">
+                                    <h4 class="heading">의료기기</h4>
+                                    <div class="detail">
+                                        <img src="./images/content2/neilmed.jpg" alt="내일매드이미지">
+                                        <span>네일메드</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+                
+            <? include "../common/sub_footer.html" ?>
+            <script src="../common/js/prefixfree.min.js"></script>
+</body>
+</html>

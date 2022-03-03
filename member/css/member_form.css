@@ -1,0 +1,30 @@
+/* member_form / member_form_modify 공통*/
+body{font-family:"Noto Sans KR", "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px; color: #333; background: #f0f0f0;}
+
+h1{width: 192px; height: 34px; margin: 0 auto; position: relative;}
+h1>a{display: block; width: 192px; height: 34px; background: url(../images/logo.png) center center no-repeat; text-indent: -999px; overflow: hidden; float: left;
+    position: absolute; top: 210px; left: 0;}
+
+#content{width: 750px; font-family: 'Nanum Gothic', sans-serif; background: #fff; border:0; border-radius: 10px 10px; margin: 80px auto; padding: 200px 70px 70px;}  
+
+h2{font-size: 28px; margin-bottom: 20px; margin-left: 10px; position: relative;}
+h2::before{content: ''; position: absolute; top: 4px; left: -10px; width: 5px; height: 28px; background: #01a0ca;}
+
+.note{color: #999; font-size: .85rem; margin-bottom: 10px;}
+
+table{width: 90%; margin: 0 5%}
+th,td{font-size: 1.1rem; font-weight: 300; padding: 10px;}
+th{width: 20%; text-align: justify;}
+td{width: 85%}
+input, select{width: inherit;border-radius: 5px; font-size: 1.2rem; outline: none; border: 0; background: rgba(1, 160, 202, .1); padding: 15px 25px; margin-bottom: 5px;}
+table tr:last-child td{text-align: center; padding: 20px 0;}
+
+.hp{width: 23%; font-size: 1.35rem;}
+.hp>option{font-size: 1rem;}
+
+.email{width: 34.5%; font-size: 1.35rem;}
+.email:nth-last-child(1){width: 235px;}
+
+.btn a{background: #01a0ca; color: #f0f0f0; padding: 10px 40px; border: 0; border-radius: 5px;}
+.btn a:nth-child(2){background: #999; }
+

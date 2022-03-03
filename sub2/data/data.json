@@ -1,0 +1,123 @@
+{
+  "events": [
+    {
+      "img": "images/content2/product_0.jpg",
+      "type": "박카스",
+      "name": "박카스디액",
+      "modal_img": "images/content2/big1.jpg",
+      "modal_name": "박카스디액",
+      "modal_type": "의약외품",
+      "ingredient": "이 약 100㎖ 중 타우린 2,000mg, 이노시톨 50mg, 니코틴산아미드 20mg, 티아민질산염 5mg",
+      "icon": "특이한 향이 있는 투명한 황색 액체",
+      "effect": "육체피로,병후의 체력저하,식욕부진,영양장애, 발열성,소모성질환등의 경우 영양보급, 자양강장, 허약체질",
+      "usage": "15세 이상 성인 1회 1병(100ml), 1일 1회 15세 미만은 복용하지 않는다.",
+      "storage": "기밀용기에 직사광선을 피해 실온의 건조한 곳에 보관한다.",
+      "package": "10병/CASE(10CASE/BOX)"
+    },{
+      "img": "images/content2/product_1.jpg",
+      "type": "박카스",
+      "name": "박카스에프액",
+      "modal_img": "images/content2/big2.jpg",
+      "modal_name": "박카스에프액",
+      "modal_type": "의약외품",
+      "ingredient": "이 약 100㎖ 중 타우린 2,000mg, 이노시톨 50mg, 니코틴산아미드 20mg, 티아민질산염 5mg",
+      "icon": "특이한 향이 있는 투명한 황색 액체",
+      "effect": "자양강장, 허약체질, 육체피로, 병후의 체력저하, 식욕부진, 영양장애",
+      "usage": "15세 이상 성인 1회 1병(100ml), 1일 1회 15세 미만은 복용하지 않는다.",
+      "storage": "기밀용기, 실온보관(1~30ºC)",
+      "package": "10병/CASE(10CASE/BOX)"
+    },{
+      "img": "images/content2/product_2.jpg",
+      "type": "박카스",
+      "name": "박카스 디카페액",
+      "modal_img": "images/content2/big3.jpg",
+      "modal_name": "박카스 디카페액",
+      "modal_type": "의약외품",
+      "ingredient": "이 약 100㎖ 중 타우린 2,000mg, 이노시톨 50mg, 니코틴산아미드 20mg, 티아민질산염 5mg",
+      "icon": "특이한 향이 있는 투명한 황색 액체",
+      "effect": "자양강장, 허약체질, 육체피로, 병중병후, 발열성 소모성질환의 영양보급",
+      "usage": "15세 이상 성인 1회 1병(100ml), 1일 1회 15세 미만은 복용하지 않는다.",
+      "storage": "기밀용기, 실온보관(1~30ºC)",
+      "package": "10병/CASE(10CASE/BOX)"
+    },{
+      "img": "images/content2/product_3.jpg",
+      "type": "가그린",
+      "name": "가그린 어린이용",
+      "modal_img": "images/content2/big4.jpg",
+      "modal_name": "가그린 어린이용",
+      "modal_type": "의약외품",
+      "ingredient": "이 약 100mL 중 플루오르화나트륨 20mg",
+      "icon": "무색~미황색의 액체",
+      "effect": "충치예방, 구취제거",
+      "usage": "6세 이상 성인 : 10ML를 입안에 넣고 1분간 잘 섞은 후 뱉는다.",
+      "storage": "기밀용기, 실온(1~30ºC) 보관",
+      "package": "380ml : 24EA/BOX"
+    },{
+      "img": "images/content2/product_4.jpg",
+      "type": "가그린",
+      "name": "가그린 오리지널",
+      "modal_img": "images/content2/big5.jpg",
+      "modal_name": "가그린 오리지널",
+      "modal_type": "의약외품",
+      "ingredient": "이 약100mL중 플루오르화나트륨 20mg, 염화세틸피리디늄 50mg",
+      "icon": "무색~미황색의 액체",
+      "effect": "충치예방, 구취제거, 구강정화, 치태(프라그)제거, 치은염 예방",
+      "usage": "약 10~15mL를 입안에 넣고 약 30초간 잘 섞은 후 뱉는다.",
+      "storage": "기밀용기, 실온(1~30ºC) 보관",
+      "package": "380ml/병(24병/BOX)"
+    },{
+      "img": "images/content2/product_5.jpg",
+      "type": "가그린",
+      "name": "가그린블라스트 치약",
+      "modal_img": "images/content2/big6.jpg",
+      "modal_name": "가그린블라스트 치약",
+      "modal_type": "의약외품",
+      "ingredient": "플루오르화나트륨, 일플루오르인산나트륨, 피로인산나트륨, 이산화규소",
+      "icon": "흰색~반투명의 페이스트제",
+      "effect": "충치예방, 구취제거, 구강정화, 치태(프라그)제거, 치은염 예방",
+      "usage": "적당량을 칫솔에 묻혀 칫솔질에 의해 치아를 닦습니다.",
+      "storage": "기밀용기, 실온(1~30ºC) 보관",
+      "package": "1입 : 36개입 / BOX"
+    },{
+      "img": "images/content2/product_6.jpg",
+      "type": "템포",
+      "name": "순면 오버나이트",
+      "modal_img": "images/content2/big7.jpg",
+      "modal_name": "템포 내추럴 순면 오버나이트 슈퍼롱",
+      "modal_type": "의약외품",
+      "ingredient": "표지-순면부직포,부직포, 흡수체-부직포,흡수지,면상펄프, 방수층-통기성방수용합성수지필름",
+      "icon": "흰색의 생리대",
+      "effect": "생리혈의 위생처리",
+      "usage": "1회 1매씩 사용",
+      "storage": "밀폐용기, 실온(1~30ºC)보관, 제조일로부터 36개월",
+      "package": "오버나이트 8개/팩 (32팩/BOX)"
+    },{
+      "img": "images/content2/product_7.jpg",
+      "type": "템포",
+      "name": "순면 패드",
+      "modal_img": "images/content2/big8.jpg",
+      "modal_name": "템포 내추럴 순면 패드",
+      "modal_type": "의약외품",
+      "ingredient": "표지-순면부직포,부직포, 흡수체-부직포,흡수지,면상펄프, 방수층-통기성방수용합성수지필름",
+      "icon": "흰색면의 날개형 생리대",
+      "effect": "생리혈의 위생처리",
+      "usage": "1회 1매씩 사용",
+      "storage": "밀폐용기, 실온(1~30ºC)보관, 제조일로부터 36개월",
+      "package": "오버나이트 8개/팩 (32팩/BOX)"
+    },{
+      "img": "images/content2/product_8.jpg",
+      "type": "템포",
+      "name": "템포(레귤러, 슈퍼)",
+      "modal_img": "images/content2/big9.jpg",
+      "modal_name": "템포(레귤러, 슈퍼)",
+      "modal_type": "의약외품",
+      "ingredient": "흡수체(탈지면), 외피(부직포), 제거용실(혼방봉사)",
+      "icon": "백색 또는 거의 백색의 원주상으로서 제거용실이 달려있고 어플리케이터에 결합되어 있는 생리처리용 탐폰",
+      "effect": "여성생리처리용",
+      "usage": "-템포 슈퍼는 양이 많은날, 템포레귤러는 양이 보통인날 사용하는 것을 권장합니다.",
+      "storage": "제조일로부터 36개월, 밀폐용기, 실온보관(1~30도)",
+      "package": "3개입, 8개입, 10개입, 20개입"
+    }
+    
+  ]
+}

@@ -1,0 +1,47 @@
+/* 각각 페이지의 내용 콘텐츠 영역-회사위치 내용*/
+#content .content_area{position: relative;}
+#content .content_area .tap_menu{width: 840px; margin: 0 auto;}
+#content .content_area .tap_menu ul{overflow: hidden; width: 840px; margin: 0 auto;}
+#content .content_area .tap_menu li{float: left; width: 420px;}
+#content .content_area .tap_menu li a{display: block; font-size: 20px; padding: 15px 0; border-bottom: 3px solid #ccc; text-align: center; transition: all .5s;}
+#content .content_area .tap_menu li a:hover{display: block; font-size: 20px; padding: 15px 0; border-bottom: 3px solid #01abce; text-align: center; transition: all .5s;}
+
+#content .content_area .intro_box{width: 1000px; margin: 0 auto; overflow: hidden; margin-bottom: 145px;}
+#content .content_area .intro_box:nth-of-type(2){margin-bottom: 130px;}
+#content .content_area .intro_box .intro_title{width: 840px; margin: 0 auto;}
+#content .content_area .intro_box .intro_title p{text-align: center; font-size: 16pt; margin-bottom: 80px;}
+#content .content_area .intro_box .intro_title span{color: #01abce;}
+
+#content .content_area .intro_box2{width: 1000px; margin: 0 auto; overflow: hidden; margin-bottom: 80px;}
+#content .content_area .intro_box2 .intro_title{width: 840px; margin: 0 auto;}
+#content .content_area .intro_box2 .intro_title p{text-align: center; font-size: 16pt; margin-bottom: 80px;}
+#content .content_area .intro_box2 .intro_title span{color: #01abce;}
+
+#content .content_area .location_box{width: 1000px; margin: 0 auto; margin-bottom: 80px;}
+
+#content .content_area .location_box .loca_box{}
+#content .content_area .location_box .loca_box .loca_txt{width: 800px; overflow: hidden; margin: 0 auto; background: #01abce; color: #fff; position: absolute; top: 393px; left: 10%; z-index: 10;}
+#content .content_area .location_box .loca_box .loca_txt .loca_title{float: left; font-size: 30px; font-weight: 500; margin: 50px 120px 73px 52px;}
+#content .content_area .location_box .loca_box .loca_txt address{margin: 50px 56px 70px 52px;}
+#content .content_area .location_box .loca_box .loca_txt address span{display: block;}
+
+#content .content_area .location_box .loca_box .map{width: 1000px; height: 840px; border: 1px solid #ccc; margin-bottom: 100px;}
+
+#content .content_area .location_box .loca_box .information{width: 900px; overflow: hidden; margin: 0 auto; background: #fafafa; border: 1px solid #ccc; padding: 50px 0 0 50px;}
+#content .content_area .location_box .loca_box .information .info_title{float: left; font-weight: bold; font-size: 25px; margin-right: 120px;}
+#content .content_area .location_box .loca_box .information .subway{float: left;}
+#content .content_area .location_box .loca_box .information .subway img{margin-bottom: 20px;}
+#content .content_area .location_box .loca_box .information .subway span{display: block; font-size: 18px; margin-bottom: 30px;}
+
+#content .content_area .branch_box{width: 770px; margin: 0 auto; line-height: 2em; margin-bottom: 300px;}
+#content .content_area .branch_box .branch_list{}
+#content .content_area .branch_box .branch_list span{font-weight: bold; font-size: 30px;}
+#content .content_area .branch_box .branch_list .branch{border-bottom: 1px solid #ccc; margin: 60px 0;}
+#content .content_area .branch_box .branch_list .branch:last-of-type{margin-bottom: 100px;}
+#content .content_area .branch_box .branch_list .branch dl{overflow: hidden;}
+#content .content_area .branch_box .branch_list .branch dt{float: left; width: 240px;}
+#content .content_area .branch_box .branch_list .branch dd{float: left;}
+#content .content_area .branch_box .branch_list .branch dd:last-of-type{float: right;}
+
+
+

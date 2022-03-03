@@ -1,0 +1,20 @@
+/*각각 페이지의 내용 콘텐츠 영역-기업소개 내용*/
+
+#content{width: 1400px; overflow: hidden}
+#content .management_box{width: 1200px; margin: 0 auto; margin-bottom: 200px; overflow: hidden; position: relative;}
+/* #content .management_box{position: relative; right:-1000px; top:0; opacity: 0; transition: all .8s} */
+#content .management_box img{width: 1200px; margin-bottom: 80px;}
+#content .management_box p{font-size: 18px; text-align: justify; padding-bottom: 80px; position: relative; overflow: hidden;}
+
+/* #content .management_box:hover p:first-of-type::after{top: 0;} */
+#content .management_box .con1{width: 300px; font-size: 20px; font-weight: bold; position: relative; float: left;}
+#content .management_box .con2{width: 800px; float: right;}
+#content .management_box .con3{width: 100%;}
+#content .management_box p span{color: #01abce; font-size: 40px;}
+
+/* #content .div.boxMove{top: 0; opacity: 1 } */
+#content .text{position: fixed;  top: 0; font-size: 50px; z-index: 100}
+
+
+
+

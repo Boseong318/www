@@ -1,0 +1,43 @@
+/* sub2,3,4 페이지의 내용 콘텐츠 영역-의약외품 내용*/
+
+#content .content_area{}
+
+#content .tab_menu{width: 640px; margin: 0 auto;}
+#content .tab_menu ul{overflow: hidden; width: 640px; margin: 0 auto;}
+#content .tab_menu li{float: left; width: 210px;}
+#content .tab_menu li a{display: block; font-size: 20px; padding: 15px 0; border-bottom: 3px solid #ccc; text-align: center; transition: all .5s;}
+#content .tab_menu li a:hover{display: block; font-size: 20px; padding: 15px 0; border-bottom: 3px solid #01abce; text-align: center; transition: all .5s;}
+
+#content .pro_list{width: 1000px; margin: 0 auto; overflow: hidden; margin-bottom: 145px; text-align: center;}
+#content .pro_list .pro_box{width: 100%; margin: 0 auto ;overflow: hidden; margin-top: 125px;}
+#content .pro_list .pro_box h4{margin-bottom: 52px; font-size: 40px;}
+#content .pro_list ul{}
+#content .pro_list li{}
+#content .pro_list a{float: left; margin-bottom: 150px;}
+#content .pro_list a:hover{}
+#content .pro_list .img_box{width: 290px; margin: 0 20px; overflow: hidden;}
+#content .pro_list .img_box img{width: 300px; transform: scale(1); transition: all .3s;}
+#content .pro_list li:hover .img_box img{transform: scale(1.1);}
+#content .pro_list p{width: 260px; text-align: left; line-height: 1.6em; padding: 10px 15px; margin: 0 0 20px 20px; transition: all .3s; transition-delay: .3s;}
+#content .pro_list li:hover p{background: #132146; color: #fff; transition: all .3s; transition-delay: .3s;}
+#content .pro_list p span{display: block; font-size: 12px; color: #666;}
+#content .pro_list li:hover p span{ font-weight: bold; color: #6578ad; transition: all .1s; transition-delay: .1s;}
+
+#content .pro_list .modal_box{position: fixed; left: 0; top: 0; z-index: 50; width: 100%; height: 100%; background: #000; opacity: .7; display: none;}
+#content .pro_list .popup{overflow: hidden; position: fixed; top: 50%; left: 50%; margin: -280px 0 0 -496px; width: 1000px; height: 650px; background: #fff; border: 5px solid #132146; box-shadow: 1px 3px 7px 0px #666; z-index: 60; display:none;}
+#content .pro_list .popup img{width: 35%; margin: 20px 3%; float: left;}
+
+#content .pro_list .popup .txt{width: 450px; float: left; margin: 0 auto; padding: 50px 20px;}
+#content .pro_list .popup .txt dl{width: 94%; margin:10px 3%; text-align: justify;}
+#content .pro_list .popup .txt dl dt{font-size: 1.2em; font-weight: bold; margin: 10px 0; }
+#content .pro_list .popup .txt dl dt:nth-of-type(1){font-size: 1.5em; font-weight: bold; margin: 30px 0; color: #01a0ca;}
+
+#content .pro_list .popup .info{width: 950px; float: left; margin: 0 auto; margin-bottom: 40px;}
+#content .pro_list .popup .info dl{width: 90%; margin:0 auto; text-align: justify; border: 1px solid #ccc;}
+#content .pro_list .popup .info dl dt{width: 120px; float: left; padding: 16px 20px 0; font-weight: bold; font-size: 1.1em;}
+#content .pro_list .popup .info dl dd{width: 650px; float: left; margin: 10px 20px;}
+
+
+#content .popup .close_btn{position: absolute; top: 25px; right: 5px; display: block; text-indent: -999px; overflow: hidden; width: 32px; height: 32px; padding: 9px 9px; background: url(../images/content2/close.png) no-repeat;}
+
+

@@ -1,0 +1,156 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업소개-본사위치</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content3.css">
+
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼이미지">
+            <h3>기업소개</h3>
+        </div>
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub1_1.html">기업 소개</a></li>
+                <li><a href="./sub1_2.html">회사 연혁</a></li>
+                <li class="current"><a href="./sub1_3.html">본사 위치</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">home &gt; 소개 &gt; <strong>본사위치</strong></div>
+                <h2>본사위치</h2>
+                <p>company introduction</p>
+            </div>
+            <div class="content_area">
+                <div class="intro_box">
+                    <div class="intro_title">
+                         <h4>본사</h4>
+                         <p><span>동아제약</span> 본사 및 연구소 현황입니다</p>
+                    </div>
+                </div>
+                <div class="location_box">
+                    <div class="loca_box">
+                        <div class="loca_txt">
+                            <p class="loca_title">동아제약 본사</p>
+                            <address>
+                                <span>주소 : 서울특별시 동대문구 천호대로 64</span>
+                                <span>전화 : 02 - 920 - 8114</span>
+                            </address>
+                        </div>
+                        <div class="map">
+                            <div id="map" style="width:1000px;height:840px;">
+                            </div>
+                        </div>
+                        <div class="information">
+                            <p class="info_title">
+                                지하철 이용안내
+                            </p>
+                            <div class="subway">
+                                <img src="./images/content3/sub_icon1.png" alt="1호선아이콘">
+                                <span>지하철 1호선 신설동역 6번 출구</span>
+                                <img src="./images/content3/sub_icon2.png" alt="2호선아이콘">
+                                <span>지하철 2호선 신설동역 9번 출구 도보 10분 거리</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro_box2">
+                    <div class="intro_title">
+                         <h4>지점</h4>
+                         <p><span>동아제약</span>지점 현황입니다</p>
+                    </div>
+                </div>
+                <div class="branch_box">
+                    <div class="branch_list">
+                        <span>경기 강원 광역</span>
+                        <div class="branch">
+                            <dl>
+                                <dt>안양 1,2,3팀</dt>
+                                <dd>경기도 안양시 만안구 안양로 552</dd>
+                                <dd>070-8636-3069</dd>
+                            </dl>
+                        </div>    
+                        <div class="branch">
+                            <dl>
+                                <dt>원주팀</dt>
+                                <dd>강원도 원주시 행가리1길 42-1</dd>
+                                <dd>033-766-1420</dd>
+                            </dl>
+                        </div>
+                        <div class="branch">
+                            <dl>
+                                <dt>강릉팀</dt>
+                                <dd>강원도 강릉시 교1동</dd>
+                                <dd>033-647-9892</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="branch_list">
+                        <span>서울 일산 광역</span>
+                        <div class="branch">
+                            <dl>
+                                <dt>서울 1, 2, 3, 4팀</dt>
+                                <dd>서울특별시 동대문구 무학로 25길 16</dd>
+                                <dd>02-920-8600, 8832</dd>
+                            </dl>
+                        </div>    
+                        <div class="branch">
+                            <dl>
+                                <dt>일산팀</dt>
+                                <dd>경기도 고양시 일산동구 경의로 25-38</dd>
+                                <dd>070-8636-3606</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="branch_list">
+                        <span>중부 호남 광역</span>
+                        <div class="branch">
+                            <dl>
+                                <dt>대전팀</dt>
+                                <dd>대전광역시 중구 어덕마을로 18</dd>
+                                <dd>042-253-6001</dd>
+                            </dl>
+                        </div>    
+                        <div class="branch">
+                            <dl>
+                                <dt>천안팀</dt>
+                                <dd>충청남도 천안시 서북구 불당동 1535-1</dd>
+                                <dd>041-562-2202</dd>
+                            </dl>
+                        </div>
+                        <div class="branch">
+                            <dl>
+                                <dt>광주팀</dt>
+                                <dd>강원도 강릉시 교1동 940-1</dd>
+                                <dd>062-571-2341</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=786d7a94126f836a6496cfca92c8fe7f"></script>
+        <script src="./js/map.js"></script>
+        <script src="../common/js/prefixfree.min.js"></script>
+
+</body>
+</html>

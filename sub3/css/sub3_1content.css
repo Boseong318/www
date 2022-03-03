@@ -1,0 +1,80 @@
+/*각각 페이지의 내용 콘텐츠 영역-  R&D 내용*/
+@keyframes right_arrow1 {
+    0% {transform: translateX(25px); opacity: 10%;} 
+    100% {transform: translateX(45px); opacity: 30%;}
+}
+@keyframes right_arrow2 {
+    0% {transform: translateX(10px); opacity: 30%;} 
+    100% {transform: translateX(30px); opacity: 70%;}
+}
+@keyframes right_arrow3 {
+    0% {transform: translateX(-5px); opacity: 50%;} 
+    100% {transform: translateX(15px); opacity: 100%;}
+}
+
+#content .content_area{width: 1200px;}
+/*rnd 박스*/
+
+#content .content_area .rnd_box{width: 100%; overflow: hidden; margin: 0 auto; margin-bottom: 150px;}
+#content .content_area .rnd_box .rnd_heading{position: relative; float: left; margin-right: 100px;}
+#content .content_area .rnd_box .rnd_heading h3::after{content: ''; width: 86px; height: 3px; background: #333; display: block; position: absolute; left: 0; top: 61px; z-index: 0;}
+#content .content_area .rnd_box .rnd_heading p{margin-top: 50px; font-weight: 500; line-height: 1.8em;}
+#content .content_area .rnd_box .rnd_heading p span{color: #01abce;}
+#content .content_area .rnd_box .rnd_heading p span:nth-of-type(2){display: block;}
+
+#content .content_area .rnd_detail{width: 800px; float: left; overflow: hidden; position: relative; margin-top: 100px; padding-left: 154px;}
+#content .content_area .rnd_detail::before{content: ''; width: 110px; height: 110px; display: block; position: absolute; left: 0; top: 0; z-index: 0;}
+#content .content_area .rnd_detail::before{background-image: url(../images/content1/rnd.png); background-size: 110px 110px;}
+#content .content_area .rnd_detail h4{margin-bottom: 20px; font-size: 20px;}
+#content .content_area .rnd_detail p{text-align: justify; line-height: 1.4em;}
+#content .content_area .rnd_detail p span{font-weight: bold; color: #01abce;}
+
+/* vision box */
+#content .content_area .vision_box{width: 100%; overflow: hidden; margin: 0 auto; margin-bottom: 150px;}
+#content .content_area .vision_box .vision_heading{width: 100%; position: relative;  float: left; margin-bottom: 30px;}
+#content .content_area .vision_box .vision_heading h3::after{content: ''; width: 137px; height: 3px; background: #333; display: block; position: absolute; left: 0; top: 61px; z-index: 0;}
+#content .content_area .vision_box .vision_heading p{margin-top: 50px; font-size: 20px; font-weight: 500; line-height: 1.8em;}
+#content .content_area .vision_box .vision_heading p span{display: inline-block; color: #01abce;}
+
+#content .content_area .vision_box .vision_list{width: 1025px; overflow: hidden; margin: 0 auto;}
+#content .content_area .vision_box .vision_list ul{}
+#content .content_area .vision_box .vision_list .detail_box{width: 200px; float: left; border: 1px solid #ccc; border-radius: 30px 30px; box-shadow: 0 0 40px rgba(0 0 0 /5%);  padding: 40px 50px; margin: 40px; transform: scale(1); transition: all .3s;}
+#content .content_area .vision_box .vision_list .detail_box:hover{transform: scale(1.1);}
+#content .content_area .vision_box .vision_list .detail_box a span{display: block; font-size: 18px; font-weight: 500; color: #01abce; margin-bottom: 40px;}
+#content .content_area .vision_box .vision_list .detail_box a img{width: 200px; border: 1px solid #ccc; border-radius: 50% 50%; margin-bottom: 40px; transform: scale(1); transition: all .3s;}
+#content .content_area .vision_box .vision_list .detail_box:hover a img{transform: scale(1.1);}
+
+#content .vision_list .arrow{float: left; margin: 250px 70px 0 20px;}
+#content .vision_list .arrow img{width: 50px; float: 70px;}
+#content .vision_list .arrow img:nth-of-type(1){ color: #01abce; animation-name: right_arrow1; animation-duration: 2s; animation-iteration-count: infinite; transition: ease;}
+#content .vision_list .arrow img:nth-of-type(2){ color: #01abce; animation-name: right_arrow2; animation-duration: 2s; animation-iteration-count: infinite; transition: ease;}
+#content .vision_list .arrow img:nth-of-type(3){ color: #01abce; animation-name: right_arrow3; animation-duration: 2s; animation-iteration-count: infinite; transition: ease;}
+
+/* dlab box*/
+#content .dlab_box{width: 100%; overflow: hidden; margin: 0 auto; }
+#content .dlab_box .dlab_heading{width: 100%; position: relative;  float: left; margin-bottom: 30px;}
+#content .dlab_box .dlab_heading h3::after{content: ''; width: 118px; height: 3px; background: #333; display: block; position: absolute; left: 0; top: 61px; z-index: 0;}
+#content .dlab_box .dlab_heading p{margin-top: 50px; font-size: 20px; font-weight: 500; line-height: 1.8em;}
+
+#content .content_area .dlab_content{width: 100%; overflow: hidden; margin: 0 auto;} 
+
+#content .dlab_detail1{width: 100%; overflow: hidden; margin: 0 auto; margin: 60px 0 150px 0; position: relative; right:-1000px; top:0; opacity: 0; transition: all 1s;}
+#content .dlab_detail1.boxMove{right: 0; opacity: 1}
+#content .dlab_detail1 .dlab_right{float: right;}
+#content .dlab_right img{width: 525px;}
+
+#content .dlab_detail1 .dlab_left{width: 500px; float: left; position: relative;}
+#content .dlab_left p{line-height: 2em;}
+#content .dlab_left .txt span{display: block; margin: 80px 0 0 30px; font-size: 20px; position: relative; padding: 30px 0 0 50px;}
+#content .dlab_left .txt span::before{content: ''; width: 5px; height: 5px; border-radius: 50%; background: #fff; border: 2px solid #01abce; display: block; position: absolute; left: 29px; bottom: 9px; z-index: 0;}
+#content .dlab_left .txt span:first-of-type{}
+
+#content .dlab_detail2{width: 100%; overflow: hidden; margin: 0 auto; margin: 60px 0 150px 0; position: relative; left:-1000px; top:0; opacity: 0; transition: all 1s;}
+#content .dlab_detail2.boxMove{left: 0; opacity: 1}
+#content .dlab_detail2 .dlab_left{float: left;}
+#content .dlab_detail2 .dlab_left img{width: 525px;}
+
+#content .dlab_detail2 .dlab_right{width: 500px; float: right; position: relative;}
+#content .dlab_detail2 .dlab_right p{line-height: 2em;}
+#content .dlab_detail2 .dlab_right .txt span{display: block; margin: 80px 0 0 30px; font-size: 20px; position: relative; padding: 30px 0 0 50px;}
+#content .dlab_detail2 .dlab_right .txt span::before{content: ''; width: 5px; height: 5px; border-radius: 50%; background: #fff; border: 2px solid #01abce; display: block; position: absolute; left: 29px; bottom: 9px; z-index: 0;}

@@ -1,0 +1,101 @@
+/* sub5 공통 - 비주얼/서브네비/타이틀영역*/
+
+.visual{width: 2000px; margin-top: 98px; position: relative; left: 50%; margin-left: -1000px; top: 0;}
+.visual h3{position: absolute; text-align: center; font-size: 36px; left: 0; top: 125px; width: 100%; color: #fff; font-weight: 500;}
+#content h2{text-align: center; font-size: 50px; margin-bottom: 5px;}
+#content h3{font-size: 40px;}
+#content h4{font-size: 30px; margin-bottom: 40px;}
+
+.sub_menu{width: 1200px; margin: 0 auto; position: relative; top: -61px; margin-bottom: -64px;}
+.sub_menu ul{overflow: hidden; width: 540px; margin: 0 auto;}
+.sub_menu li{float: left; width: 180px;}
+.sub_menu li a{display: block; font-size: 20px; padding: 15px 0; background: rgba(255,255,255,.9); border: 1px solid #ccc; text-align: center; transition: all .5s;}
+.sub_menu li a:hover{background: #01abce; color: #fff; font-weight: bold;}
+.sub_menu .current a{background: #01abce; color: #fff; border: 1px solid #01abce; font-weight: bold;}
+
+#content{width: 1200px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif;}
+#content .content_area{width: 1100px; margin: 100px auto; position: relative; overflow: hidden;}
+#content .title_area{position: relative; padding-top: 100px;}
+#content .title_area p{text-align: center; font-size: 24px; font-weight: 300; margin-bottom: 130px;}
+#content .line_map{position: absolute; right: 15px; top: 15px;}
+
+/* [list.php] */
+#list_search{overflow: hidden; font-family: 'Noto Sans KR', sans-serif; font-weight: 500; padding: 15px 0;}
+#list_search #list_search1, #list_search #list_search3, #list_search #list_search4, #list_search #list_search5{float: left;}
+
+#list_search .search_group{float: right;}
+#list_search3 select{padding: 2px 5px; margin-right: 8px;}
+#list_search4{margin-right: 5px;}
+#list_search #list_search4 input{padding: 2px 5px 2px 8px;}
+#list_search5{}
+#list_search #list_search5 input{border: 1px solid #01abce; border-radius: 2.5px; color: #01abce; background: #fff; padding: 3px 10px; transition: all ease-in-out .3s;}
+#list_search #list_search5 input:hover{border: 1px solid #01abce; color: #f0f0f0; background: #01abce; transition: all ease-in-out .3s;}
+
+.content_area .scale{position: absolute; top: 16px; left: 83px; padding: 2px 5px 5px 0; margin-left: 8px;}
+
+
+
+
+/* [list.php] list_top_title */
+
+
+#list_item2{width: 600px; height: 150px; overflow: hidden;}
+#list_item2 a{display: block; overflow: hidden;}
+#list_item2 a>img{width: 150px; height: 130px;  float: left; margin: 0 30px; padding: 10px 0;}
+#list_item2 a>p{width: 390px; float: left; text-align: justify; padding: 55px 0;}
+
+#list_item .list_item_wrap{padding: 70px 0;}
+#list_item3{width: 160px;}
+#list_item4{width: 140px;}
+#list_item5{width: 100px;}
+
+#page_button{overflow: hidden; text-align: center;}
+#page_button #page_num{}
+#page_button #button{overflow: hidden; float: right; padding: 10px;}
+#page_button #button>a{ border: 1px solid #01abce; border-radius: 2.5px; color: #01abce; background: #fff; padding: 3px 10px; transition: all ease-in-out .3s;}
+#page_button #button>a:hover{border: 1px solid #01abce; color: #f0f0f0; background: #01abce; transition: all ease-in-out .3s;}
+
+/* [list.php] list_content */
+#list_content{overflow: hidden; width: 100%;}
+#list_item{overflow: hidden; width: 96%; height: 150px; padding: 15px 0; margin: 30px auto; border: 1px solid #eee; border-radius: 10px;  transition: all ease-in-out .3s;}
+#list_item:hover {background: rgba(1, 160, 202, .1); box-shadow: 4px 4px 10px 2px rgba(0,0,0,.2); transition: all ease-in-out .3s;}
+#list_item2, #list_item3, #list_item4, #list_item5{float: left; text-align: center;}
+#list_item2:hover a{text-decoration: underline}
+
+
+/* [write_form] */
+#write_form{overflow: hidden; border-top: 3px solid #01abce; padding: 0 10px;}
+#write_row1 .col1, #write_row2 .col1, #write_row3 .col1{width: 100px; font-size: 1.3rem; text-align: center; margin-right: 15px;}
+#write_row1 .col2, #write_row2 .col2, #write_row3 .col2{width: 78%; font-size: 1.08rem; text-align: justify;}
+
+#write_row1, #write_row2, #write_row3{overflow: hidden; border-bottom: 1px solid #ccc; padding: 25px 0; margin: 5px auto;}
+#write_row1>div, #write_row2>div, #write_row3>div{float: left;}
+#write_row1 .col3{float: right;}
+
+#write_row2 .col2 input, #write_row3 .col2 textarea{width: 100%; outline: 0; border: 0; border-radius: 3px; background: rgba(1, 160, 202, .1); padding: 10px 5px 10px 15px;}
+
+#write_button{overflow: hidden; padding: 10px 0; float: right; margin-right: 50px;}
+#write_button input, #write_button a{font-size: 1.08rem; border: 1px solid #01abce; border-radius: 2.5px; color: #01abce; background: #fff; padding: 3px 10px; transition: all ease-in-out .3s;}
+#write_button input:hover, #write_button a:hover{border: 1px solid #01abce; color: #f0f0f0; background: #01abce; transition: all ease-in-out .3s;}
+
+#write_button input{width: 100px; display: inline-block; font-size: 1.0937499404rem; outline: 0; margin-right: 20px;}
+#write_button a{width: 80px;  display: inline-block; text-align: center; font-size: 1.0940rem; padding: 3.3px 10px;}
+
+#write_row4, #write_row5, #write_row6{overflow: hidden; margin: 25px 10px;}
+#write_row4 .col1, #write_row5 .col1, #write_row6 .col1{width: 100px; float: left; font-weight: 500; text-align: center; margin-right: 15px;}
+#write_row4 .col2, #write_row5 .col2, #write_row6 .col2{width: 400px; float: left; font-size: 1.08rem; text-align: justify;}
+#write_row4 .col2 input, #write_row5 .col2 input, #write_row6 .col2 input{}
+
+/* [view.php] */
+#view_title{ overflow: hidden;}
+#view_title1{width: inherit; font-size: 1.2rem; font-weight: bold; color: #f9f9f9; background: #01abce; border-radius: 10px 10px 0 0 ; padding: 15px 25px;}
+#view_title2{overflow: hidden; border-bottom: 1px solid #ccc; padding: 15px 20px;}
+#view_title2 li{float: left;}
+#view_title2 li:nth-child(3){float: right;}
+#view_title2 li i{font-size: .95rem; margin-right: 10px; color: rgb(78, 78, 78);}
+
+#view_content{font-size: .99rem; line-height: 1.5rem; text-align: justify; border-bottom: 1px solid #ccc; padding: 50px 35px;}
+
+#view_button{overflow: hidden; padding: 10px 0; float: right; margin: 30px 50px 0 0;}
+#view_button a{font-size: 1.08rem; border: 1px solid #01abce; border-radius: 2.5px; color: #01abce; background: #fff; padding: 5px 15px; margin-left: 15px; transition: all ease-in-out .3s;}
+#view_button a:hover{border: 1px solid #01abce; color: #f0f0f0; background: #01abce; transition: all ease-in-out .3s;}

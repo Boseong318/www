@@ -1,0 +1,88 @@
+/* 각각 페이지의 내용 콘텐츠 영역-신제품 내용*/
+
+#content{width: 100%;}
+#content .content_area{}
+#content h4{font-size: 40px; text-align: center; margin: 125px  0 52px;}
+
+#content .tap_menu{width: 490px; margin: 0 auto;}
+#content .tap_menu ul{overflow: hidden; width: 490px; margin: 0 auto;}
+#content .tap_menu li{float: left; width: 245px;}
+#content .tap_menu li a{display: block; font-size: 20px; padding: 15px 0; border-bottom: 3px solid #ccc; text-align: center; transition: all .5s;}
+#content .tap_menu li a:hover{display: block; font-size: 20px; padding: 15px 0; border-bottom: 3px solid #01abce; text-align: center; transition: all .5s;}
+#content .tap_menu li.current a{border-bottom: 3px solid #01abce;}
+
+#content .content_area .slogan_box{width: 100%; margin: 0 auto; overflow: hidden; margin-top: 200px; margin-bottom: 145px; padding: 100px 0 150px; background: url(../images/content1/bacchus.png) 50% 50% no-repeat;}
+#content .slogan_txt{width: 450px; margin: 0 auto; padding-left: 300px;}
+#content .slogan_txt p{text-align: right; font-size: 16pt; color: #fff; margin-bottom: 60px;}
+#content .slogan_txt p:first-of-type{color: #fff; text-align: right; font-size: 30px; font-weight: bold; margin: 20px 0 80px;}
+#content .slogan_txt p:nth-of-type(2){display: block; margin-bottom: 30px;}
+#content .slogan_txt span{color: #01abce;}
+#content .slogan_txt img{position: relative; bottom: 35px; left: 240px; opacity: .2;}
+
+#content .movie_box{overflow: hidden; background: #f6f6f6; margin-bottom: 250px;}
+#content .movie_tap{width: 1000px; margin: 0 auto; margin-bottom: 110px; overflow: hidden; display: block;}
+#content .movie_tap ul{overflow: hidden; width: 1000px; margin: 0 auto;}
+#content .movie_tap li{float: left; width: 250px;}
+#content .movie_tap li a{display: block; font-size: 20px; padding: 15px 0; margin: 0 20px; border: 2px solid #01abce; border-radius: 50px 50px; background: #fff; text-align: center; transition: all .5s;}
+#content .movie_tap li a:hover{background: #01abce; color: #fff;}
+#content .movie_tap .current a{background: #01abce; color: #fff; border: 2px solid #01abce;}
+
+#content .movie{overflow: hidden; width: 1200px; margin: 0 auto; padding: 50px 0 100px 0; display: none;}
+#content .movie_txt{width: 260px; float: left; text-align: center; line-height: 4em; margin: 40px 100px; padding: 10px;}
+#content .movie_txt p{font-size: 25px;}
+#content .movie_txt p span{display: block;}
+#content .movie_txt p span strong{color: #060606;}
+
+#content .yt_box{float: left; padding: 10px;}
+#content .yt_box p{width: 600px;color: #333; line-height: 2em; margin: 40px 30px;}
+#content .yt_box p span{display: block;}
+#content .yt_box p span:first-of-type{font-weight: bold; font-size: 20px;}
+#content .yt_box p span:last-of-type{font-size: 18px;}
+
+#content .logo_box{overflow: hidden; margin: 0 auto; width: 1400px; margin-bottom: 250px;}
+#content .img_box{float: left; width: 650px; background: #f1f1f1; padding: 104px 44px 65px;}
+#content .img_box img{width: 650px;}
+#content .logo_txt{float: left; width: 500px; color: #fafafa; background: #132146; padding: 40px 71px 17px ;}
+#content .logo_txt p{text-align: justify; line-height: 2.1em;}
+#content .logo_txt p span{display: block; font-size: 15px; line-height: 1.8em; margin-bottom: 30px;}
+#content .logo_txt p span:first-of-type{font-weight: bold; font-size: 20px; margin-bottom: 30px;}
+#content .logo_txt p span:nth-of-type(2){margin-bottom: 20px;}
+
+#content .introduce_box{width: 1400px; overflow: hidden; position: relative; margin: 0 auto; text-align: right; margin-bottom: 150px;}
+#content .introduce_txt{width: 500px; position: absolute; left: 88px; bottom: 90px; background: #7496c7; color: #fff; padding: 30px 70px 60px;}
+#content .introduce_txt p{font-size: 15px; line-height: 2em;}
+#content .introduce_txt p span{display: block; margin-bottom: 10px;}
+#content .introduce_txt p strong{color: #132146;}
+#content .introduce_txt p span:first-of-type{font-weight: bold; font-size: 30px; margin: 30px 0 50px;}
+#content .introduce_box img{float: right; width: 1200px; margin: 40px 0;}
+
+#content .story_box{width: 100%; margin: 100px 0 150px;}
+#content .story_inner{width: 1200px; overflow: hidden; text-align: center; margin: 0 auto;}
+#content .story_inner p{font-size: 20px; line-height: 2em;}
+#content .story_inner p span{display: block; font-weight: 300;}
+#content .story_inner p span:first-of-type{font-weight: bold;}
+#content .story_inner p span strong{color: #7496c7;}
+
+#content .story_inner ul{}
+#content .story_inner li{float: left; width: 200px; margin: 80px 20px; position: relative;}
+#content .story_inner li:not(:first-child):before{content: ''; position: absolute; top: 0; left: -23px; width: 1px; height: 150px; background: #ddd;}
+
+#content .story_list{text-align: center; font-size: 18px;}
+#content .story_list p{font-size: 25px;}
+#content .story_box .txt{ font-weight: 300;}
+#content .story_box .txt strong{color: #132146; display: block;}
+#content .story_box .txt span{display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
