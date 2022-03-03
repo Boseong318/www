@@ -1,0 +1,23 @@
+.task{overflow: hidden; position: relative; padding: 4.375rem 7.03125% 4.375rem;}
+.task ul{}
+.task ul li{}
+.task ul li div{width: 100%;}
+.task ul li div img{width: 300px; height: 200px; border: 1px solid #ccc; border-radius: 50px 50px; position: relative; left: 50%; margin-left: -150px; top: 0;}
+.task ul li div dl{text-align: center; line-height: 2.1rem; position: relative; padding-top: 10%; margin-bottom: 20%;}
+.task ul li div dt{font-size: 1.2rem; font-weight: bold; color: #132146; margin-bottom: 15px;}
+/* .task ul li div dt::before{content: ''; width: 1px; height: 68px; background: #333; background-size: cover; position: absolute; top: 58px; left: 50%; transform: translate(-50%, -50%); z-index: -1;} */
+.task ul li div dd{}
+
+.achieve{overflow: hidden; position: relative; padding: 4.375rem 7.03125% 4.375rem;}
+.achieve ul{}
+.achieve ul li{}
+.achieve ul li div:first-of-type{margin-bottom: 40%;}
+.achieve ul li div.img1{height: 20rem; background: url(../images/sub_images/achieve1.jpg); background-size: cover; margin-bottom: 15%;}
+.achieve ul li div.img2{height: 20rem; background: url(../images/sub_images/achieve2.jpg); background-size: cover; margin-bottom: 15%;}
+.achieve ul li .txt{font-size: 1.1rem; line-height: 1.8rem; text-align: justify; padding: 0 .8rem;}
+.achieve ul li div>p{margin-bottom: 10%;}
+
+
+
+
+

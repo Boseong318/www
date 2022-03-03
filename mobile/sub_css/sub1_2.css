@@ -1,0 +1,27 @@
+/* .gagreen{overflow: hidden; position: relative; padding: 4.375rem 7.03125% 4.375rem;}
+.gagreen::before{content: ''; width: 700px; height: 125px; background: #f2f2f2; background-size: cover; position: absolute; top: 31%; left: 50%; transform: translate(-50%, -50%); z-index: -1;} */
+.history{overflow: hidden; position: relative; padding: 4.375rem 7.03125% 4.375rem;}
+.history::before{content: ''; width: 700px; height: 125px; background: #f2f2f2; background-size: cover; position: absolute; top: 78%; left: 50%; transform: translate(-50%, -50%); z-index: -1;}
+
+.history>img{height: 19.3rem; position: relative; margin: 2% 0;}
+
+.gagreen .txt{text-align: justify; padding-top: 20%; padding: 4.375rem 7.03125% 4.375rem;}
+.gagreen .txt p{text-align: center; border-bottom: 1px solid #ccc;}
+.gagreen .txt p span{display: block; margin-bottom: 4%;}
+.gagreen .txt p span:nth-child(1){}
+.gagreen .txt p span:nth-child(2) strong{color: #7496c7;}
+.gagreen .txt p span:nth-child(3) strong{color: #7496c7;}
+
+.gagreen .txt ul{text-align: center; margin: 10% 0;}
+.gagreen .txt ul li{margin-bottom: 30px;}
+.gagreen .txt ul li .story_list{width: 10%; margin: 0 auto;} 
+.gagreen .txt ul li .story_list p{border: none; font-weight: bold; text-align: center;}
+
+.gagreen .txt ul li .txt{text-align: center; padding: 4% 20%;}
+.gagreen .txt ul li .txt strong{display: block; color: #01a0ca;}
+.gagreen .txt ul li .txt span{}
+
+
+
+
+

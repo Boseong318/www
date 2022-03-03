@@ -1,0 +1,81 @@
+/* CSS Document */
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    .search_icon { background: url("../images/img12x2.jpg");
+    
+    -webkit-background-size: 320px 64px; }
+    
+    }
+
+html, body {position: relative; height: 100%;}
+
+/* 비주얼 */
+.flexslider .slides > li{position: relative;}
+.flexslider .slides > li p{position: absolute; top: 33%; right: -15%; width: 75%; margin: 0 23%;
+    text-align: right;color: #fff;font-size: 1.5rem; font-weight: 700;}
+.flexslider .slides > li p span{display: block; font-size: 1.25rem; font-weight: 300; margin: 2% 0;}
+/* 콘텐츠 */
+#content{width: 100%;}
+
+/* 베스트제품 */
+.best_product{overflow: hidden; background: #f0f0f0; margin-bottom: 60px; padding: 50px 0 20px;}
+/* .best_product div{width: 80%; margin: 0 auto;} */
+.best_product .txt{width: 33%; overflow: hidden; float: left; text-align: right; margin: 50px 5%;}
+.best_product .txt p{width: 100%; margin: 10px 0;}
+.best_product img{float: right; margin-right: 5%;}
+
+/* 스와이퍼 플러그인 */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 16px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+/* 연구개발 */
+.research{overflow: hidden; margin-bottom: 20%;}
+.research ul{width: 90%; overflow: hidden; margin: 0 auto;}
+.research ul li{width: 33.33%; float: left; text-align: center;}
+.research ul li img{width: 56px; height: 118px; }
+.research .txt{width: 80%; margin: 0 auto; padding-top: 10%;}
+.research .txt h4{color: #01a0ca; margin-bottom: 10%;}
+.research .txt p{}
+
+
+/* 경영철학 */
+.business{overflow: hidden; margin-bottom: 100px;}
+.business .txt{margin-bottom: 20px;}
+.business .txt p{text-align: center;}
+.business .txt h3{margin-bottom: 10%;}
+.business ul{height: 100px; margin: 0 auto; margin-top: 80px; background: url(../images/img12.jpg) center bottom no-repeat; background-size: cover;}
+.business ul li{width: 33.33%; float: left; text-align: center;}
+.business ul li div{position: relative; left: 10px; top: -40px;}
+.business ul li div img{background: #fff; border: 3px solid #01a0ca; border-radius: 50%;}
+.business ul li div p{color: #fff; margin: 8px 0;}
+
+
+/* 고객지원 */
+.customer{margin: 20px auto; padding: 40px 30px; margin-bottom: 60px; height: 200px; background: url(../images/img11x2.jpg) center center no-repeat; background-size: cover;}
+.customer .txt{color: #fff; text-align: center; margin: 20px auto;}
+.customer .txt span{display: block; margin-top: 10px;}
+
+
+

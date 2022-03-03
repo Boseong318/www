@@ -1,0 +1,17 @@
+.content_area{}
+
+.content_area .img{height: 350px; background:url(../images/sub_images/children.jpg) center center no-repeat; background-size: cover;}
+.content_area ul{padding: 4.375rem 7.03125% 4.375rem; text-align: justify;}
+.content_area ul li{margin-bottom: 20%;}
+.content_area ul li .con{text-align: center;}
+.content_area ul li .con i{font-size: 2rem; margin-bottom: 1.2rem;}
+.content_area ul li .con p:nth-of-type(1){text-align: center; font-size: 1.25rem; font-weight: bold; color: #132146;}
+.content_area ul li .con p:nth-of-type(2){text-align: justify; margin: 8% 0; line-height: 2rem;}
+
+.con_txt{padding:0 7.03125% 4.375rem; text-align: justify;}
+.con_txt img{width: 200px; height: 41px;}
+.con_txt p{margin: 10% 0; line-height: 1.8rem;}
+
+
+
+

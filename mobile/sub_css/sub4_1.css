@@ -1,0 +1,22 @@
+
+#content h4{font-size: 1.25rem; margin: 20px 0 10px; text-align: justify;}
+
+.call_box{overflow: hidden; position: relative; padding: 4.375rem 7.03125% 4.375rem;}
+
+.call_info{}
+
+.info_box{margin: 20% 0;}
+.info_box i{font-size: 3rem; margin: 0 41%;}
+.info_box p{text-align: justify;}
+.info_box p strong{display: block; margin-bottom: 5%; color: #01abce;}
+.info_box p span{display: block; color: #666;}
+
+.mail_box{margin: 20% 0;}
+
+.mail_info{}
+
+.mail_info i{font-size: 3rem;  margin: 0 41%;}
+.mail_info p{text-align: justify; }
+.mail_info p strong{display: block; margin-bottom: 5%; color: #01abce;}
+.mail_info p span{display: block; color: #666;}
+

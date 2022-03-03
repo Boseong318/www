@@ -1,0 +1,19 @@
+.bacchus{}
+.history{overflow: hidden; position: relative; padding: 4.375rem 7.03125% 4.375rem;}
+.history::before{content: ''; width: 700px; height: 125px; background: #f2f2f2; background-size: cover; position: absolute; top: 31%; left: 50%; transform: translate(-50%, -50%); z-index: -1;}
+/* .inner h4{margin-bottom: 2rem;} */
+.history>img{height: 19.3rem; position: relative; margin: 2% 0;}
+.bacchus .txt{text-align: justify; padding-top: 20%;}
+.bacchus p{margin-bottom: 20px;}
+.bacchus p:nth-child(1){}
+.bacchus p:nth-child(2){}
+.bacchus p:nth-child(3){}
+.bacchus p strong{display: block; font-size: 1.2rem; margin-bottom: 4%;}
+.bacchus p span{display: block; text-align: right; margin-bottom: 6%;}
+
+.movie{overflow: hidden; padding: 4.375rem 7.03125% 9.375rem;}
+.movie>div{width: 100%;}
+.movie iframe{width: 100%;}
+
+
+

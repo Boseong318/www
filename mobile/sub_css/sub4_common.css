@@ -1,0 +1,4 @@
+/* 서브 비주얼 */
+.visual{position: relative; height: 112px; background: url(../images/sub_images/visual4x2.jpg) center center no-repeat; background-size: cover; margin-top: 72px;}
+.visual h3{position: absolute; left: 50%; top: 38px; margin-left: -38px; color: #fff; font-size: 1.5rem; font-weight: bold;}
+

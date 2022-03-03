@@ -1,0 +1,31 @@
+/*각각 페이지의 내용 콘텐츠 영역-FAQ 내용*/
+
+#content .txt{font-size: 1.5em; text-align: center; margin-bottom: 150px;}
+#content .tabs{margin: 0 auto; overflow: hidden; margin-bottom: 20%; position: relative;} 
+#content .tab_menu{overflow: hidden; border: 1px solid #ccc;}
+#content .tabs .tab_menu li{width: 20%; float: left;}
+#content .tabs a.tab {display: block; text-align: center; font-size: 1.2rem; background: #fff; color: #333; padding: 15% 0; transition: all .5s;} 
+#content .tabs .all{display: block; font-size: 1.4rem; position: absolute; top: 1%; right: 5%;}
+#content .tabs .all i{}
+
+#content .tabs .contlist {display: none; line-height:1.5em;} 
+#content .contlist .hgroup{}
+#content .contlist .hgroup .all{position:absolute; top:5px; right:10px; font-size: 20px;}
+#content .contlist ul{line-height: 3em;}
+#content .contlist li{font-weight:300;}
+#content .contlist .question{margin:0; border-top: 1px solid #ddd;}
+#content .contlist .question a{}
+#content .contlist .question a strong{color: #01a0ca; font-weight: bold; margin-right: 10px;}
+#content .contlist .question a span{float: right;}
+#content .contlist .question a span i{color: #999; margin-right: 2%}
+#content .contlist .question a.trigger{display:block;padding: 5% 4%; background:#fafafa; color: #333;}
+#content .contlist .question a.trigger:hover, a.trigger:active, a.trigger:focus{font-size: 1.1rem; background: #1b2e631c; color: #000} 
+#content .contlist .answer{padding: 5% 10%; line-height:2rem; text-align: justify; overflow:hidden; display: none;} 
+
+
+
+
+
+
+
+

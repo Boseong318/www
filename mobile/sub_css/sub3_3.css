@@ -1,0 +1,9 @@
+.management_box{}
+.management_box .img{height: 350px; background: url(../images/sub_images/nature9.jpg) center center no-repeat; background-size: cover;}
+.con1{font-size: 1.25rem; font-weight: bold; text-align: justify; padding: 2.375rem 7.03125% 4.375rem;}
+.con1 span{color: #01abce;}
+.con2{font-size: 1.08rem; line-height: 1.8rem; text-align: justify; padding: 2.375rem 7.03125% 4.375rem;}
+.con2 span{display: block; margin-bottom: 20%;}
+
+
+

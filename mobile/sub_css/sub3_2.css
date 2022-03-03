@@ -1,0 +1,33 @@
+.mission_box{}
+.mission_box p{text-align: justify; padding: 2.375rem 7.03125% 4.375rem;}
+.mission_box p span{color: #01abce;}
+
+.con_box{}
+.con_box ul{padding: 0 7.03125% 4.375rem;}
+.con_box ul li{position: relative;}
+.con_box .img1{height: 250px; background: url(../images/sub_images/mission1.jpg)center center no-repeat; background-size: cover;}
+.con_box .img2{height: 250px; background: url(../images/sub_images/mission2.jpg)center center no-repeat; background-size: cover;}
+.con_box .img3{height: 250px; background: url(../images/sub_images/mission3.jpg)center center no-repeat; background-size: cover;}
+.con_box .img4{height: 250px; background: url(../images/sub_images/mission4.jpg)center center no-repeat; background-size: cover;}
+
+.con_box ul li span{font-size: 3rem; color: #eee; position: absolute; right: 10%; top: 0%;}
+
+
+.con_box ul li dl{padding: 1.375rem 7.03125% 4.375rem;} 
+.con_box ul li dl dt{font-size: 1.23rem; font-weight: bold; margin-bottom: 1.8rem;} 
+.con_box ul li dl dd{text-align: justify; font-size: .98rem; line-height: 2rem;}  
+
+.contribute_box{padding: 1.375rem 7.03125% 4.375rem;}
+.contribute_box p{padding: 2rem 0; text-align: justify;}
+.contribute_box dl{text-align: justify; color: #fff; border-radius: 30px; padding: 2rem; margin: 5% 0;}
+#content .contribute_box dl:nth-of-type(1){background: #1667a0;}
+#content .contribute_box dl:nth-of-type(2){background: #1677a0;}
+#content .contribute_box dl:nth-of-type(3){background: #6a93a4;}
+#content .contribute_box dl:nth-of-type(4){background: #9da1a2;}
+
+.contribute_box dt{font-size: 1.2rem; font-weight: bold; text-align: center; margin-bottom: 1.1rem;}
+.contribute_box dd{line-height: 1.8rem;}
+
+
+
+
